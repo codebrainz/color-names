@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+  <color id="air_force_blue_raf" hex="#5d8aa8" red="93" green="138" blue="168">Air Force Blue (Raf)</color>
+  <color id="air_force_blue_usaf" hex="#00308f" red="0" green="48" blue="143">Air Force Blue (Usaf)</color>
+  <color id="air_superiority_blue" hex="#72a0c1" red="114" green="160" blue="193">Air Superiority Blue</color>
+  <color id="alabama_crimson" hex="#a32638" red="163" green="38" blue="56">Alabama Crimson</color>
+  <color id="alice_blue" hex="#f0f8ff" red="240" green="248" blue="255">Alice Blue</color>
+  <color id="alizarin_crimson" hex="#e32636" red="227" green="38" blue="54">Alizarin Crimson</color>
+  <color id="alloy_orange" hex="#c46210" red="196" green="98" blue="16">Alloy Orange</color>
+  <color id="almond" hex="#efdecd" red="239" green="222" blue="205">Almond</color>
+  <color id="amaranth" hex="#e52b50" red="229" green="43" blue="80">Amaranth</color>
+  <color id="amber" hex="#ffbf00" red="255" green="191" blue="0">Amber</color>
+  <color id="amber_sae_ece" hex="#ff7e00" red="255" green="126" blue="0">Amber (Sae/Ece)</color>
+  <color id="american_rose" hex="#ff033e" red="255" green="3" blue="62">American Rose</color>
+  <color id="amethyst" hex="#96c" red="153" green="102" blue="204">Amethyst</color>
+  <color id="android_green" hex="#a4c639" red="164" green="198" blue="57">Android Green</color>
+  <color id="anti_flash_white" hex="#f2f3f4" red="242" green="243" blue="244">Anti-Flash White</color>
+  <color id="antique_brass" hex="#cd9575" red="205" green="149" blue="117">Antique Brass</color>
+  <color id="antique_fuchsia" hex="#915c83" red="145" green="92" blue="131">Antique Fuchsia</color>
+  <color id="antique_ruby" hex="#841b2d" red="132" green="27" blue="45">Antique Ruby</color>
+  <color id="antique_white" hex="#faebd7" red="250" green="235" blue="215">Antique White</color>
+  <color id="ao_english" hex="#008000" red="0" green="128" blue="0">Ao (English)</color>
+  <color id="apple_green" hex="#8db600" red="141" green="182" blue="0">Apple Green</color>
+  <color id="apricot" hex="#fbceb1" red="251" green="206" blue="177">Apricot</color>
+  <color id="aqua" hex="#0ff" red="0" green="255" blue="255">Aqua</color>
+  <color id="aquamarine" hex="#7fffd4" red="127" green="255" blue="212">Aquamarine</color>
+  <color id="army_green" hex="#4b5320" red="75" green="83" blue="32">Army Green</color>
+  <color id="arsenic" hex="#3b444b" red="59" green="68" blue="75">Arsenic</color>
+  <color id="arylide_yellow" hex="#e9d66b" red="233" green="214" blue="107">Arylide Yellow</color>
+  <color id="ash_grey" hex="#b2beb5" red="178" green="190" blue="181">Ash Grey</color>
+  <color id="asparagus" hex="#87a96b" red="135" green="169" blue="107">Asparagus</color>
+  <color id="atomic_tangerine" hex="#f96" red="255" green="153" blue="102">Atomic Tangerine</color>
+  <color id="auburn" hex="#a52a2a" red="165" green="42" blue="42">Auburn</color>
+  <color id="aureolin" hex="#fdee00" red="253" green="238" blue="0">Aureolin</color>
+  <color id="aurometalsaurus" hex="#6e7f80" red="110" green="127" blue="128">Aurometalsaurus</color>
+  <color id="avocado" hex="#568203" red="86" green="130" blue="3">Avocado</color>
+  <color id="azure" hex="#007fff" red="0" green="127" blue="255">Azure</color>
+  <color id="azure_mist_web" hex="#f0ffff" red="240" green="255" blue="255">Azure Mist/Web</color>
+  <color id="baby_blue" hex="#89cff0" red="137" green="207" blue="240">Baby Blue</color>
+  <color id="baby_blue_eyes" hex="#a1caf1" red="161" green="202" blue="241">Baby Blue Eyes</color>
+  <color id="baby_pink" hex="#f4c2c2" red="244" green="194" blue="194">Baby Pink</color>
+  <color id="ball_blue" hex="#21abcd" red="33" green="171" blue="205">Ball Blue</color>
+  <color id="banana_mania" hex="#fae7b5" red="250" green="231" blue="181">Banana Mania</color>
+  <color id="banana_yellow" hex="#ffe135" red="255" green="225" blue="53">Banana Yellow</color>
+  <color id="barn_red" hex="#7c0a02" red="124" green="10" blue="2">Barn Red</color>
+  <color id="battleship_grey" hex="#848482" red="132" green="132" blue="130">Battleship Grey</color>
+  <color id="bazaar" hex="#98777b" red="152" green="119" blue="123">Bazaar</color>
+  <color id="beau_blue" hex="#bcd4e6" red="188" green="212" blue="230">Beau Blue</color>
+  <color id="beaver" hex="#9f8170" red="159" green="129" blue="112">Beaver</color>
+  <color id="beige" hex="#f5f5dc" red="245" green="245" blue="220">Beige</color>
+  <color id="big_dip_o_ruby" hex="#9c2542" red="156" green="37" blue="66">Big Dip O’Ruby</color>
+  <color id="bisque" hex="#ffe4c4" red="255" green="228" blue="196">Bisque</color>
+  <color id="bistre" hex="#3d2b1f" red="61" green="43" blue="31">Bistre</color>
+  <color id="bittersweet" hex="#fe6f5e" red="254" green="111" blue="94">Bittersweet</color>
+  <color id="bittersweet_shimmer" hex="#bf4f51" red="191" green="79" blue="81">Bittersweet Shimmer</color>
+  <color id="black" hex="#000" red="0" green="0" blue="0">Black</color>
+  <color id="black_bean" hex="#3d0c02" red="61" green="12" blue="2">Black Bean</color>
+  <color id="black_leather_jacket" hex="#253529" red="37" green="53" blue="41">Black Leather Jacket</color>
+  <color id="black_olive" hex="#3b3c36" red="59" green="60" blue="54">Black Olive</color>
+  <color id="blanched_almond" hex="#ffebcd" red="255" green="235" blue="205">Blanched Almond</color>
+  <color id="blast_off_bronze" hex="#a57164" red="165" green="113" blue="100">Blast-Off Bronze</color>
+  <color id="bleu_de_france" hex="#318ce7" red="49" green="140" blue="231">Bleu De France</color>
+  <color id="blizzard_blue" hex="#ace5ee" red="172" green="229" blue="238">Blizzard Blue</color>
+  <color id="blond" hex="#faf0be" red="250" green="240" blue="190">Blond</color>
+  <color id="blue" hex="#00f" red="0" green="0" blue="255">Blue</color>
+  <color id="blue_bell" hex="#a2a2d0" red="162" green="162" blue="208">Blue Bell</color>
+  <color id="blue_crayola" hex="#1f75fe" red="31" green="117" blue="254">Blue (Crayola)</color>
+  <color id="blue_gray" hex="#69c" red="102" green="153" blue="204">Blue Gray</color>
+  <color id="blue_green" hex="#0d98ba" red="13" green="152" blue="186">Blue-Green</color>
+  <color id="blue_munsell" hex="#0093af" red="0" green="147" blue="175">Blue (Munsell)</color>
+  <color id="blue_ncs" hex="#0087bd" red="0" green="135" blue="189">Blue (Ncs)</color>
+  <color id="blue_pigment" hex="#339" red="51" green="51" blue="153">Blue (Pigment)</color>
+  <color id="blue_ryb" hex="#0247fe" red="2" green="71" blue="254">Blue (Ryb)</color>
+  <color id="blue_sapphire" hex="#126180" red="18" green="97" blue="128">Blue Sapphire</color>
+  <color id="blue_violet" hex="#8a2be2" red="138" green="43" blue="226">Blue-Violet</color>
+  <color id="blush" hex="#de5d83" red="222" green="93" blue="131">Blush</color>
+  <color id="bole" hex="#79443b" red="121" green="68" blue="59">Bole</color>
+  <color id="bondi_blue" hex="#0095b6" red="0" green="149" blue="182">Bondi Blue</color>
+  <color id="bone" hex="#e3dac9" red="227" green="218" blue="201">Bone</color>
+  <color id="boston_university_red" hex="#c00" red="204" green="0" blue="0">Boston University Red</color>
+  <color id="bottle_green" hex="#006a4e" red="0" green="106" blue="78">Bottle Green</color>
+  <color id="boysenberry" hex="#873260" red="135" green="50" blue="96">Boysenberry</color>
+  <color id="brandeis_blue" hex="#0070ff" red="0" green="112" blue="255">Brandeis Blue</color>
+  <color id="brass" hex="#b5a642" red="181" green="166" blue="66">Brass</color>
+  <color id="brick_red" hex="#cb4154" red="203" green="65" blue="84">Brick Red</color>
+  <color id="bright_cerulean" hex="#1dacd6" red="29" green="172" blue="214">Bright Cerulean</color>
+  <color id="bright_green" hex="#6f0" red="102" green="255" blue="0">Bright Green</color>
+  <color id="bright_lavender" hex="#bf94e4" red="191" green="148" blue="228">Bright Lavender</color>
+  <color id="bright_maroon" hex="#c32148" red="195" green="33" blue="72">Bright Maroon</color>
+  <color id="bright_pink" hex="#ff007f" red="255" green="0" blue="127">Bright Pink</color>
+  <color id="bright_turquoise" hex="#08e8de" red="8" green="232" blue="222">Bright Turquoise</color>
+  <color id="bright_ube" hex="#d19fe8" red="209" green="159" blue="232">Bright Ube</color>
+  <color id="brilliant_lavender" hex="#f4bbff" red="244" green="187" blue="255">Brilliant Lavender</color>
+  <color id="brilliant_rose" hex="#ff55a3" red="255" green="85" blue="163">Brilliant Rose</color>
+  <color id="brink_pink" hex="#fb607f" red="251" green="96" blue="127">Brink Pink</color>
+  <color id="british_racing_green" hex="#004225" red="0" green="66" blue="37">British Racing Green</color>
+  <color id="bronze" hex="#cd7f32" red="205" green="127" blue="50">Bronze</color>
+  <color id="brown_traditional" hex="#964b00" red="150" green="75" blue="0">Brown (Traditional)</color>
+  <color id="brown_web" hex="#a52a2a" red="165" green="42" blue="42">Brown (Web)</color>
+  <color id="bubble_gum" hex="#ffc1cc" red="255" green="193" blue="204">Bubble Gum</color>
+  <color id="bubbles" hex="#e7feff" red="231" green="254" blue="255">Bubbles</color>
+  <color id="buff" hex="#f0dc82" red="240" green="220" blue="130">Buff</color>
+  <color id="bulgarian_rose" hex="#480607" red="72" green="6" blue="7">Bulgarian Rose</color>
+  <color id="burgundy" hex="#800020" red="128" green="0" blue="32">Burgundy</color>
+  <color id="burlywood" hex="#deb887" red="222" green="184" blue="135">Burlywood</color>
+  <color id="burnt_orange" hex="#c50" red="204" green="85" blue="0">Burnt Orange</color>
+  <color id="burnt_sienna" hex="#e97451" red="233" green="116" blue="81">Burnt Sienna</color>
+  <color id="burnt_umber" hex="#8a3324" red="138" green="51" blue="36">Burnt Umber</color>
+  <color id="byzantine" hex="#bd33a4" red="189" green="51" blue="164">Byzantine</color>
+  <color id="byzantium" hex="#702963" red="112" green="41" blue="99">Byzantium</color>
+  <color id="cadet" hex="#536872" red="83" green="104" blue="114">Cadet</color>
+  <color id="cadet_blue" hex="#5f9ea0" red="95" green="158" blue="160">Cadet Blue</color>
+  <color id="cadet_grey" hex="#91a3b0" red="145" green="163" blue="176">Cadet Grey</color>
+  <color id="cadmium_green" hex="#006b3c" red="0" green="107" blue="60">Cadmium Green</color>
+  <color id="cadmium_orange" hex="#ed872d" red="237" green="135" blue="45">Cadmium Orange</color>
+  <color id="cadmium_red" hex="#e30022" red="227" green="0" blue="34">Cadmium Red</color>
+  <color id="cadmium_yellow" hex="#fff600" red="255" green="246" blue="0">Cadmium Yellow</color>
+  <color id="caf_au_lait" hex="#a67b5b" red="166" green="123" blue="91">Café Au Lait</color>
+  <color id="caf_noir" hex="#4b3621" red="75" green="54" blue="33">Café Noir</color>
+  <color id="cal_poly_green" hex="#1e4d2b" red="30" green="77" blue="43">Cal Poly Green</color>
+  <color id="cambridge_blue" hex="#a3c1ad" red="163" green="193" blue="173">Cambridge Blue</color>
+  <color id="camel" hex="#c19a6b" red="193" green="154" blue="107">Camel</color>
+  <color id="cameo_pink" hex="#efbbcc" red="239" green="187" blue="204">Cameo Pink</color>
+  <color id="camouflage_green" hex="#78866b" red="120" green="134" blue="107">Camouflage Green</color>
+  <color id="canary_yellow" hex="#ffef00" red="255" green="239" blue="0">Canary Yellow</color>
+  <color id="candy_apple_red" hex="#ff0800" red="255" green="8" blue="0">Candy Apple Red</color>
+  <color id="candy_pink" hex="#e4717a" red="228" green="113" blue="122">Candy Pink</color>
+  <color id="capri" hex="#00bfff" red="0" green="191" blue="255">Capri</color>
+  <color id="caput_mortuum" hex="#592720" red="89" green="39" blue="32">Caput Mortuum</color>
+  <color id="cardinal" hex="#c41e3a" red="196" green="30" blue="58">Cardinal</color>
+  <color id="caribbean_green" hex="#0c9" red="0" green="204" blue="153">Caribbean Green</color>
+  <color id="carmine" hex="#960018" red="150" green="0" blue="24">Carmine</color>
+  <color id="carmine_m_p" hex="#d70040" red="215" green="0" blue="64">Carmine (M&amp;P)</color>
+  <color id="carmine_pink" hex="#eb4c42" red="235" green="76" blue="66">Carmine Pink</color>
+  <color id="carmine_red" hex="#ff0038" red="255" green="0" blue="56">Carmine Red</color>
+  <color id="carnation_pink" hex="#ffa6c9" red="255" green="166" blue="201">Carnation Pink</color>
+  <color id="carnelian" hex="#b31b1b" red="179" green="27" blue="27">Carnelian</color>
+  <color id="carolina_blue" hex="#99badd" red="153" green="186" blue="221">Carolina Blue</color>
+  <color id="carrot_orange" hex="#ed9121" red="237" green="145" blue="33">Carrot Orange</color>
+  <color id="catalina_blue" hex="#062a78" red="6" green="42" blue="120">Catalina Blue</color>
+  <color id="ceil" hex="#92a1cf" red="146" green="161" blue="207">Ceil</color>
+  <color id="celadon" hex="#ace1af" red="172" green="225" blue="175">Celadon</color>
+  <color id="celadon_blue" hex="#007ba7" red="0" green="123" blue="167">Celadon Blue</color>
+  <color id="celadon_green" hex="#2f847c" red="47" green="132" blue="124">Celadon Green</color>
+  <color id="celeste_colour" hex="#b2ffff" red="178" green="255" blue="255">Celeste (Colour)</color>
+  <color id="celestial_blue" hex="#4997d0" red="73" green="151" blue="208">Celestial Blue</color>
+  <color id="cerise" hex="#de3163" red="222" green="49" blue="99">Cerise</color>
+  <color id="cerise_pink" hex="#ec3b83" red="236" green="59" blue="131">Cerise Pink</color>
+  <color id="cerulean" hex="#007ba7" red="0" green="123" blue="167">Cerulean</color>
+  <color id="cerulean_blue" hex="#2a52be" red="42" green="82" blue="190">Cerulean Blue</color>
+  <color id="cerulean_frost" hex="#6d9bc3" red="109" green="155" blue="195">Cerulean Frost</color>
+  <color id="cg_blue" hex="#007aa5" red="0" green="122" blue="165">Cg Blue</color>
+  <color id="cg_red" hex="#e03c31" red="224" green="60" blue="49">Cg Red</color>
+  <color id="chamoisee" hex="#a0785a" red="160" green="120" blue="90">Chamoisee</color>
+  <color id="champagne" hex="#fad6a5" red="250" green="214" blue="165">Champagne</color>
+  <color id="charcoal" hex="#36454f" red="54" green="69" blue="79">Charcoal</color>
+  <color id="charm_pink" hex="#e68fac" red="230" green="143" blue="172">Charm Pink</color>
+  <color id="chartreuse_traditional" hex="#dfff00" red="223" green="255" blue="0">Chartreuse (Traditional)</color>
+  <color id="chartreuse_web" hex="#7fff00" red="127" green="255" blue="0">Chartreuse (Web)</color>
+  <color id="cherry" hex="#de3163" red="222" green="49" blue="99">Cherry</color>
+  <color id="cherry_blossom_pink" hex="#ffb7c5" red="255" green="183" blue="197">Cherry Blossom Pink</color>
+  <color id="chestnut" hex="#cd5c5c" red="205" green="92" blue="92">Chestnut</color>
+  <color id="china_pink" hex="#de6fa1" red="222" green="111" blue="161">China Pink</color>
+  <color id="china_rose" hex="#a8516e" red="168" green="81" blue="110">China Rose</color>
+  <color id="chinese_red" hex="#aa381e" red="170" green="56" blue="30">Chinese Red</color>
+  <color id="chocolate_traditional" hex="#7b3f00" red="123" green="63" blue="0">Chocolate (Traditional)</color>
+  <color id="chocolate_web" hex="#d2691e" red="210" green="105" blue="30">Chocolate (Web)</color>
+  <color id="chrome_yellow" hex="#ffa700" red="255" green="167" blue="0">Chrome Yellow</color>
+  <color id="cinereous" hex="#98817b" red="152" green="129" blue="123">Cinereous</color>
+  <color id="cinnabar" hex="#e34234" red="227" green="66" blue="52">Cinnabar</color>
+  <color id="cinnamon" hex="#d2691e" red="210" green="105" blue="30">Cinnamon</color>
+  <color id="citrine" hex="#e4d00a" red="228" green="208" blue="10">Citrine</color>
+  <color id="classic_rose" hex="#fbcce7" red="251" green="204" blue="231">Classic Rose</color>
+  <color id="cobalt" hex="#0047ab" red="0" green="71" blue="171">Cobalt</color>
+  <color id="cocoa_brown" hex="#d2691e" red="210" green="105" blue="30">Cocoa Brown</color>
+  <color id="coffee" hex="#6f4e37" red="111" green="78" blue="55">Coffee</color>
+  <color id="columbia_blue" hex="#9bddff" red="155" green="221" blue="255">Columbia Blue</color>
+  <color id="congo_pink" hex="#f88379" red="248" green="131" blue="121">Congo Pink</color>
+  <color id="cool_black" hex="#002e63" red="0" green="46" blue="99">Cool Black</color>
+  <color id="cool_grey" hex="#8c92ac" red="140" green="146" blue="172">Cool Grey</color>
+  <color id="copper" hex="#b87333" red="184" green="115" blue="51">Copper</color>
+  <color id="copper_crayola" hex="#da8a67" red="218" green="138" blue="103">Copper (Crayola)</color>
+  <color id="copper_penny" hex="#ad6f69" red="173" green="111" blue="105">Copper Penny</color>
+  <color id="copper_red" hex="#cb6d51" red="203" green="109" blue="81">Copper Red</color>
+  <color id="copper_rose" hex="#966" red="153" green="102" blue="102">Copper Rose</color>
+  <color id="coquelicot" hex="#ff3800" red="255" green="56" blue="0">Coquelicot</color>
+  <color id="coral" hex="#ff7f50" red="255" green="127" blue="80">Coral</color>
+  <color id="coral_pink" hex="#f88379" red="248" green="131" blue="121">Coral Pink</color>
+  <color id="coral_red" hex="#ff4040" red="255" green="64" blue="64">Coral Red</color>
+  <color id="cordovan" hex="#893f45" red="137" green="63" blue="69">Cordovan</color>
+  <color id="corn" hex="#fbec5d" red="251" green="236" blue="93">Corn</color>
+  <color id="cornell_red" hex="#b31b1b" red="179" green="27" blue="27">Cornell Red</color>
+  <color id="cornflower_blue" hex="#6495ed" red="100" green="149" blue="237">Cornflower Blue</color>
+  <color id="cornsilk" hex="#fff8dc" red="255" green="248" blue="220">Cornsilk</color>
+  <color id="cosmic_latte" hex="#fff8e7" red="255" green="248" blue="231">Cosmic Latte</color>
+  <color id="cotton_candy" hex="#ffbcd9" red="255" green="188" blue="217">Cotton Candy</color>
+  <color id="cream" hex="#fffdd0" red="255" green="253" blue="208">Cream</color>
+  <color id="crimson" hex="#dc143c" red="220" green="20" blue="60">Crimson</color>
+  <color id="crimson_glory" hex="#be0032" red="190" green="0" blue="50">Crimson Glory</color>
+  <color id="cyan" hex="#0ff" red="0" green="255" blue="255">Cyan</color>
+  <color id="cyan_process" hex="#00b7eb" red="0" green="183" blue="235">Cyan (Process)</color>
+  <color id="daffodil" hex="#ffff31" red="255" green="255" blue="49">Daffodil</color>
+  <color id="dandelion" hex="#f0e130" red="240" green="225" blue="48">Dandelion</color>
+  <color id="dark_blue" hex="#00008b" red="0" green="0" blue="139">Dark Blue</color>
+  <color id="dark_brown" hex="#654321" red="101" green="67" blue="33">Dark Brown</color>
+  <color id="dark_byzantium" hex="#5d3954" red="93" green="57" blue="84">Dark Byzantium</color>
+  <color id="dark_candy_apple_red" hex="#a40000" red="164" green="0" blue="0">Dark Candy Apple Red</color>
+  <color id="dark_cerulean" hex="#08457e" red="8" green="69" blue="126">Dark Cerulean</color>
+  <color id="dark_chestnut" hex="#986960" red="152" green="105" blue="96">Dark Chestnut</color>
+  <color id="dark_coral" hex="#cd5b45" red="205" green="91" blue="69">Dark Coral</color>
+  <color id="dark_cyan" hex="#008b8b" red="0" green="139" blue="139">Dark Cyan</color>
+  <color id="dark_electric_blue" hex="#536878" red="83" green="104" blue="120">Dark Electric Blue</color>
+  <color id="dark_goldenrod" hex="#b8860b" red="184" green="134" blue="11">Dark Goldenrod</color>
+  <color id="dark_gray" hex="#a9a9a9" red="169" green="169" blue="169">Dark Gray</color>
+  <color id="dark_green" hex="#013220" red="1" green="50" blue="32">Dark Green</color>
+  <color id="dark_imperial_blue" hex="#00416a" red="0" green="65" blue="106">Dark Imperial Blue</color>
+  <color id="dark_jungle_green" hex="#1a2421" red="26" green="36" blue="33">Dark Jungle Green</color>
+  <color id="dark_khaki" hex="#bdb76b" red="189" green="183" blue="107">Dark Khaki</color>
+  <color id="dark_lava" hex="#483c32" red="72" green="60" blue="50">Dark Lava</color>
+  <color id="dark_lavender" hex="#734f96" red="115" green="79" blue="150">Dark Lavender</color>
+  <color id="dark_magenta" hex="#8b008b" red="139" green="0" blue="139">Dark Magenta</color>
+  <color id="dark_midnight_blue" hex="#036" red="0" green="51" blue="102">Dark Midnight Blue</color>
+  <color id="dark_olive_green" hex="#556b2f" red="85" green="107" blue="47">Dark Olive Green</color>
+  <color id="dark_orange" hex="#ff8c00" red="255" green="140" blue="0">Dark Orange</color>
+  <color id="dark_orchid" hex="#9932cc" red="153" green="50" blue="204">Dark Orchid</color>
+  <color id="dark_pastel_blue" hex="#779ecb" red="119" green="158" blue="203">Dark Pastel Blue</color>
+  <color id="dark_pastel_green" hex="#03c03c" red="3" green="192" blue="60">Dark Pastel Green</color>
+  <color id="dark_pastel_purple" hex="#966fd6" red="150" green="111" blue="214">Dark Pastel Purple</color>
+  <color id="dark_pastel_red" hex="#c23b22" red="194" green="59" blue="34">Dark Pastel Red</color>
+  <color id="dark_pink" hex="#e75480" red="231" green="84" blue="128">Dark Pink</color>
+  <color id="dark_powder_blue" hex="#039" red="0" green="51" blue="153">Dark Powder Blue</color>
+  <color id="dark_raspberry" hex="#872657" red="135" green="38" blue="87">Dark Raspberry</color>
+  <color id="dark_red" hex="#8b0000" red="139" green="0" blue="0">Dark Red</color>
+  <color id="dark_salmon" hex="#e9967a" red="233" green="150" blue="122">Dark Salmon</color>
+  <color id="dark_scarlet" hex="#560319" red="86" green="3" blue="25">Dark Scarlet</color>
+  <color id="dark_sea_green" hex="#8fbc8f" red="143" green="188" blue="143">Dark Sea Green</color>
+  <color id="dark_sienna" hex="#3c1414" red="60" green="20" blue="20">Dark Sienna</color>
+  <color id="dark_slate_blue" hex="#483d8b" red="72" green="61" blue="139">Dark Slate Blue</color>
+  <color id="dark_slate_gray" hex="#2f4f4f" red="47" green="79" blue="79">Dark Slate Gray</color>
+  <color id="dark_spring_green" hex="#177245" red="23" green="114" blue="69">Dark Spring Green</color>
+  <color id="dark_tan" hex="#918151" red="145" green="129" blue="81">Dark Tan</color>
+  <color id="dark_tangerine" hex="#ffa812" red="255" green="168" blue="18">Dark Tangerine</color>
+  <color id="dark_taupe" hex="#483c32" red="72" green="60" blue="50">Dark Taupe</color>
+  <color id="dark_terra_cotta" hex="#cc4e5c" red="204" green="78" blue="92">Dark Terra Cotta</color>
+  <color id="dark_turquoise" hex="#00ced1" red="0" green="206" blue="209">Dark Turquoise</color>
+  <color id="dark_violet" hex="#9400d3" red="148" green="0" blue="211">Dark Violet</color>
+  <color id="dark_yellow" hex="#9b870c" red="155" green="135" blue="12">Dark Yellow</color>
+  <color id="dartmouth_green" hex="#00703c" red="0" green="112" blue="60">Dartmouth Green</color>
+  <color id="davy_s_grey" hex="#555" red="85" green="85" blue="85">Davy'S Grey</color>
+  <color id="debian_red" hex="#d70a53" red="215" green="10" blue="83">Debian Red</color>
+  <color id="deep_carmine" hex="#a9203e" red="169" green="32" blue="62">Deep Carmine</color>
+  <color id="deep_carmine_pink" hex="#ef3038" red="239" green="48" blue="56">Deep Carmine Pink</color>
+  <color id="deep_carrot_orange" hex="#e9692c" red="233" green="105" blue="44">Deep Carrot Orange</color>
+  <color id="deep_cerise" hex="#da3287" red="218" green="50" blue="135">Deep Cerise</color>
+  <color id="deep_champagne" hex="#fad6a5" red="250" green="214" blue="165">Deep Champagne</color>
+  <color id="deep_chestnut" hex="#b94e48" red="185" green="78" blue="72">Deep Chestnut</color>
+  <color id="deep_coffee" hex="#704241" red="112" green="66" blue="65">Deep Coffee</color>
+  <color id="deep_fuchsia" hex="#c154c1" red="193" green="84" blue="193">Deep Fuchsia</color>
+  <color id="deep_jungle_green" hex="#004b49" red="0" green="75" blue="73">Deep Jungle Green</color>
+  <color id="deep_lilac" hex="#95b" red="153" green="85" blue="187">Deep Lilac</color>
+  <color id="deep_magenta" hex="#c0c" red="204" green="0" blue="204">Deep Magenta</color>
+  <color id="deep_peach" hex="#ffcba4" red="255" green="203" blue="164">Deep Peach</color>
+  <color id="deep_pink" hex="#ff1493" red="255" green="20" blue="147">Deep Pink</color>
+  <color id="deep_ruby" hex="#843f5b" red="132" green="63" blue="91">Deep Ruby</color>
+  <color id="deep_saffron" hex="#f93" red="255" green="153" blue="51">Deep Saffron</color>
+  <color id="deep_sky_blue" hex="#00bfff" red="0" green="191" blue="255">Deep Sky Blue</color>
+  <color id="deep_tuscan_red" hex="#66424d" red="102" green="66" blue="77">Deep Tuscan Red</color>
+  <color id="denim" hex="#1560bd" red="21" green="96" blue="189">Denim</color>
+  <color id="desert" hex="#c19a6b" red="193" green="154" blue="107">Desert</color>
+  <color id="desert_sand" hex="#edc9af" red="237" green="201" blue="175">Desert Sand</color>
+  <color id="dim_gray" hex="#696969" red="105" green="105" blue="105">Dim Gray</color>
+  <color id="dodger_blue" hex="#1e90ff" red="30" green="144" blue="255">Dodger Blue</color>
+  <color id="dogwood_rose" hex="#d71868" red="215" green="24" blue="104">Dogwood Rose</color>
+  <color id="dollar_bill" hex="#85bb65" red="133" green="187" blue="101">Dollar Bill</color>
+  <color id="drab" hex="#967117" red="150" green="113" blue="23">Drab</color>
+  <color id="duke_blue" hex="#00009c" red="0" green="0" blue="156">Duke Blue</color>
+  <color id="earth_yellow" hex="#e1a95f" red="225" green="169" blue="95">Earth Yellow</color>
+  <color id="ebony" hex="#555d50" red="85" green="93" blue="80">Ebony</color>
+  <color id="ecru" hex="#c2b280" red="194" green="178" blue="128">Ecru</color>
+  <color id="eggplant" hex="#614051" red="97" green="64" blue="81">Eggplant</color>
+  <color id="eggshell" hex="#f0ead6" red="240" green="234" blue="214">Eggshell</color>
+  <color id="egyptian_blue" hex="#1034a6" red="16" green="52" blue="166">Egyptian Blue</color>
+  <color id="electric_blue" hex="#7df9ff" red="125" green="249" blue="255">Electric Blue</color>
+  <color id="electric_crimson" hex="#ff003f" red="255" green="0" blue="63">Electric Crimson</color>
+  <color id="electric_cyan" hex="#0ff" red="0" green="255" blue="255">Electric Cyan</color>
+  <color id="electric_green" hex="#0f0" red="0" green="255" blue="0">Electric Green</color>
+  <color id="electric_indigo" hex="#6f00ff" red="111" green="0" blue="255">Electric Indigo</color>
+  <color id="electric_lavender" hex="#f4bbff" red="244" green="187" blue="255">Electric Lavender</color>
+  <color id="electric_lime" hex="#cf0" red="204" green="255" blue="0">Electric Lime</color>
+  <color id="electric_purple" hex="#bf00ff" red="191" green="0" blue="255">Electric Purple</color>
+  <color id="electric_ultramarine" hex="#3f00ff" red="63" green="0" blue="255">Electric Ultramarine</color>
+  <color id="electric_violet" hex="#8f00ff" red="143" green="0" blue="255">Electric Violet</color>
+  <color id="electric_yellow" hex="#ff0" red="255" green="255" blue="0">Electric Yellow</color>
+  <color id="emerald" hex="#50c878" red="80" green="200" blue="120">Emerald</color>
+  <color id="english_lavender" hex="#b48395" red="180" green="131" blue="149">English Lavender</color>
+  <color id="eton_blue" hex="#96c8a2" red="150" green="200" blue="162">Eton Blue</color>
+  <color id="fallow" hex="#c19a6b" red="193" green="154" blue="107">Fallow</color>
+  <color id="falu_red" hex="#801818" red="128" green="24" blue="24">Falu Red</color>
+  <color id="fandango" hex="#b53389" red="181" green="51" blue="137">Fandango</color>
+  <color id="fashion_fuchsia" hex="#f400a1" red="244" green="0" blue="161">Fashion Fuchsia</color>
+  <color id="fawn" hex="#e5aa70" red="229" green="170" blue="112">Fawn</color>
+  <color id="feldgrau" hex="#4d5d53" red="77" green="93" blue="83">Feldgrau</color>
+  <color id="fern_green" hex="#4f7942" red="79" green="121" blue="66">Fern Green</color>
+  <color id="ferrari_red" hex="#ff2800" red="255" green="40" blue="0">Ferrari Red</color>
+  <color id="field_drab" hex="#6c541e" red="108" green="84" blue="30">Field Drab</color>
+  <color id="fire_engine_red" hex="#ce2029" red="206" green="32" blue="41">Fire Engine Red</color>
+  <color id="firebrick" hex="#b22222" red="178" green="34" blue="34">Firebrick</color>
+  <color id="flame" hex="#e25822" red="226" green="88" blue="34">Flame</color>
+  <color id="flamingo_pink" hex="#fc8eac" red="252" green="142" blue="172">Flamingo Pink</color>
+  <color id="flavescent" hex="#f7e98e" red="247" green="233" blue="142">Flavescent</color>
+  <color id="flax" hex="#eedc82" red="238" green="220" blue="130">Flax</color>
+  <color id="floral_white" hex="#fffaf0" red="255" green="250" blue="240">Floral White</color>
+  <color id="fluorescent_orange" hex="#ffbf00" red="255" green="191" blue="0">Fluorescent Orange</color>
+  <color id="fluorescent_pink" hex="#ff1493" red="255" green="20" blue="147">Fluorescent Pink</color>
+  <color id="fluorescent_yellow" hex="#cf0" red="204" green="255" blue="0">Fluorescent Yellow</color>
+  <color id="folly" hex="#ff004f" red="255" green="0" blue="79">Folly</color>
+  <color id="forest_green_traditional" hex="#014421" red="1" green="68" blue="33">Forest Green (Traditional)</color>
+  <color id="forest_green_web" hex="#228b22" red="34" green="139" blue="34">Forest Green (Web)</color>
+  <color id="french_beige" hex="#a67b5b" red="166" green="123" blue="91">French Beige</color>
+  <color id="french_blue" hex="#0072bb" red="0" green="114" blue="187">French Blue</color>
+  <color id="french_lilac" hex="#86608e" red="134" green="96" blue="142">French Lilac</color>
+  <color id="french_lime" hex="#cf0" red="204" green="255" blue="0">French Lime</color>
+  <color id="french_raspberry" hex="#c72c48" red="199" green="44" blue="72">French Raspberry</color>
+  <color id="french_rose" hex="#f64a8a" red="246" green="74" blue="138">French Rose</color>
+  <color id="fuchsia" hex="#f0f" red="255" green="0" blue="255">Fuchsia</color>
+  <color id="fuchsia_crayola" hex="#c154c1" red="193" green="84" blue="193">Fuchsia (Crayola)</color>
+  <color id="fuchsia_pink" hex="#f7f" red="255" green="119" blue="255">Fuchsia Pink</color>
+  <color id="fuchsia_rose" hex="#c74375" red="199" green="67" blue="117">Fuchsia Rose</color>
+  <color id="fulvous" hex="#e48400" red="228" green="132" blue="0">Fulvous</color>
+  <color id="fuzzy_wuzzy" hex="#c66" red="204" green="102" blue="102">Fuzzy Wuzzy</color>
+  <color id="gainsboro" hex="#dcdcdc" red="220" green="220" blue="220">Gainsboro</color>
+  <color id="gamboge" hex="#e49b0f" red="228" green="155" blue="15">Gamboge</color>
+  <color id="ghost_white" hex="#f8f8ff" red="248" green="248" blue="255">Ghost White</color>
+  <color id="ginger" hex="#b06500" red="176" green="101" blue="0">Ginger</color>
+  <color id="glaucous" hex="#6082b6" red="96" green="130" blue="182">Glaucous</color>
+  <color id="glitter" hex="#e6e8fa" red="230" green="232" blue="250">Glitter</color>
+  <color id="gold_metallic" hex="#d4af37" red="212" green="175" blue="55">Gold (Metallic)</color>
+  <color id="gold_web_golden" hex="#ffd700" red="255" green="215" blue="0">Gold (Web) (Golden)</color>
+  <color id="golden_brown" hex="#996515" red="153" green="101" blue="21">Golden Brown</color>
+  <color id="golden_poppy" hex="#fcc200" red="252" green="194" blue="0">Golden Poppy</color>
+  <color id="golden_yellow" hex="#ffdf00" red="255" green="223" blue="0">Golden Yellow</color>
+  <color id="goldenrod" hex="#daa520" red="218" green="165" blue="32">Goldenrod</color>
+  <color id="granny_smith_apple" hex="#a8e4a0" red="168" green="228" blue="160">Granny Smith Apple</color>
+  <color id="gray" hex="#808080" red="128" green="128" blue="128">Gray</color>
+  <color id="gray_asparagus" hex="#465945" red="70" green="89" blue="69">Gray-Asparagus</color>
+  <color id="gray_html_css_gray" hex="#808080" red="128" green="128" blue="128">Gray (Html/Css Gray)</color>
+  <color id="gray_x11_gray" hex="#bebebe" red="190" green="190" blue="190">Gray (X11 Gray)</color>
+  <color id="green_color_wheel_x11_green" hex="#0f0" red="0" green="255" blue="0">Green (Color Wheel) (X11 Green)</color>
+  <color id="green_crayola" hex="#1cac78" red="28" green="172" blue="120">Green (Crayola)</color>
+  <color id="green_html_css_green" hex="#008000" red="0" green="128" blue="0">Green (Html/Css Green)</color>
+  <color id="green_munsell" hex="#00a877" red="0" green="168" blue="119">Green (Munsell)</color>
+  <color id="green_ncs" hex="#009f6b" red="0" green="159" blue="107">Green (Ncs)</color>
+  <color id="green_pigment" hex="#00a550" red="0" green="165" blue="80">Green (Pigment)</color>
+  <color id="green_ryb" hex="#66b032" red="102" green="176" blue="50">Green (Ryb)</color>
+  <color id="green_yellow" hex="#adff2f" red="173" green="255" blue="47">Green-Yellow</color>
+  <color id="grullo" hex="#a99a86" red="169" green="154" blue="134">Grullo</color>
+  <color id="guppie_green" hex="#00ff7f" red="0" green="255" blue="127">Guppie Green</color>
+  <color id="halay_be" hex="#663854" red="102" green="56" blue="84">Halayà úBe</color>
+  <color id="han_blue" hex="#446ccf" red="68" green="108" blue="207">Han Blue</color>
+  <color id="han_purple" hex="#5218fa" red="82" green="24" blue="250">Han Purple</color>
+  <color id="hansa_yellow" hex="#e9d66b" red="233" green="214" blue="107">Hansa Yellow</color>
+  <color id="harlequin" hex="#3fff00" red="63" green="255" blue="0">Harlequin</color>
+  <color id="harvard_crimson" hex="#c90016" red="201" green="0" blue="22">Harvard Crimson</color>
+  <color id="harvest_gold" hex="#da9100" red="218" green="145" blue="0">Harvest Gold</color>
+  <color id="heart_gold" hex="#808000" red="128" green="128" blue="0">Heart Gold</color>
+  <color id="heliotrope" hex="#df73ff" red="223" green="115" blue="255">Heliotrope</color>
+  <color id="hollywood_cerise" hex="#f400a1" red="244" green="0" blue="161">Hollywood Cerise</color>
+  <color id="honeydew" hex="#f0fff0" red="240" green="255" blue="240">Honeydew</color>
+  <color id="honolulu_blue" hex="#007fbf" red="0" green="127" blue="191">Honolulu Blue</color>
+  <color id="hooker_s_green" hex="#49796b" red="73" green="121" blue="107">Hooker'S Green</color>
+  <color id="hot_magenta" hex="#ff1dce" red="255" green="29" blue="206">Hot Magenta</color>
+  <color id="hot_pink" hex="#ff69b4" red="255" green="105" blue="180">Hot Pink</color>
+  <color id="hunter_green" hex="#355e3b" red="53" green="94" blue="59">Hunter Green</color>
+  <color id="iceberg" hex="#71a6d2" red="113" green="166" blue="210">Iceberg</color>
+  <color id="icterine" hex="#fcf75e" red="252" green="247" blue="94">Icterine</color>
+  <color id="imperial_blue" hex="#002395" red="0" green="35" blue="149">Imperial Blue</color>
+  <color id="inchworm" hex="#b2ec5d" red="178" green="236" blue="93">Inchworm</color>
+  <color id="india_green" hex="#138808" red="19" green="136" blue="8">India Green</color>
+  <color id="indian_red" hex="#cd5c5c" red="205" green="92" blue="92">Indian Red</color>
+  <color id="indian_yellow" hex="#e3a857" red="227" green="168" blue="87">Indian Yellow</color>
+  <color id="indigo" hex="#6f00ff" red="111" green="0" blue="255">Indigo</color>
+  <color id="indigo_dye" hex="#00416a" red="0" green="65" blue="106">Indigo (Dye)</color>
+  <color id="indigo_web" hex="#4b0082" red="75" green="0" blue="130">Indigo (Web)</color>
+  <color id="international_klein_blue" hex="#002fa7" red="0" green="47" blue="167">International Klein Blue</color>
+  <color id="international_orange_aerospace" hex="#ff4f00" red="255" green="79" blue="0">International Orange (Aerospace)</color>
+  <color id="international_orange_engineering" hex="#ba160c" red="186" green="22" blue="12">International Orange (Engineering)</color>
+  <color id="international_orange_golden_gate_bridge" hex="#c0362c" red="192" green="54" blue="44">International Orange (Golden Gate Bridge)</color>
+  <color id="iris" hex="#5a4fcf" red="90" green="79" blue="207">Iris</color>
+  <color id="isabelline" hex="#f4f0ec" red="244" green="240" blue="236">Isabelline</color>
+  <color id="islamic_green" hex="#009000" red="0" green="144" blue="0">Islamic Green</color>
+  <color id="ivory" hex="#fffff0" red="255" green="255" blue="240">Ivory</color>
+  <color id="jade" hex="#00a86b" red="0" green="168" blue="107">Jade</color>
+  <color id="jasmine" hex="#f8de7e" red="248" green="222" blue="126">Jasmine</color>
+  <color id="jasper" hex="#d73b3e" red="215" green="59" blue="62">Jasper</color>
+  <color id="jazzberry_jam" hex="#a50b5e" red="165" green="11" blue="94">Jazzberry Jam</color>
+  <color id="jet" hex="#343434" red="52" green="52" blue="52">Jet</color>
+  <color id="jonquil" hex="#fada5e" red="250" green="218" blue="94">Jonquil</color>
+  <color id="june_bud" hex="#bdda57" red="189" green="218" blue="87">June Bud</color>
+  <color id="jungle_green" hex="#29ab87" red="41" green="171" blue="135">Jungle Green</color>
+  <color id="kelly_green" hex="#4cbb17" red="76" green="187" blue="23">Kelly Green</color>
+  <color id="kenyan_copper" hex="#7c1c05" red="124" green="28" blue="5">Kenyan Copper</color>
+  <color id="khaki_html_css_khaki" hex="#c3b091" red="195" green="176" blue="145">Khaki (Html/Css) (Khaki)</color>
+  <color id="khaki_x11_light_khaki" hex="#f0e68c" red="240" green="230" blue="140">Khaki (X11) (Light Khaki)</color>
+  <color id="ku_crimson" hex="#e8000d" red="232" green="0" blue="13">Ku Crimson</color>
+  <color id="la_salle_green" hex="#087830" red="8" green="120" blue="48">La Salle Green</color>
+  <color id="languid_lavender" hex="#d6cadd" red="214" green="202" blue="221">Languid Lavender</color>
+  <color id="lapis_lazuli" hex="#26619c" red="38" green="97" blue="156">Lapis Lazuli</color>
+  <color id="laser_lemon" hex="#fefe22" red="254" green="254" blue="34">Laser Lemon</color>
+  <color id="laurel_green" hex="#a9ba9d" red="169" green="186" blue="157">Laurel Green</color>
+  <color id="lava" hex="#cf1020" red="207" green="16" blue="32">Lava</color>
+  <color id="lavender_blue" hex="#ccf" red="204" green="204" blue="255">Lavender Blue</color>
+  <color id="lavender_blush" hex="#fff0f5" red="255" green="240" blue="245">Lavender Blush</color>
+  <color id="lavender_floral" hex="#b57edc" red="181" green="126" blue="220">Lavender (Floral)</color>
+  <color id="lavender_gray" hex="#c4c3d0" red="196" green="195" blue="208">Lavender Gray</color>
+  <color id="lavender_indigo" hex="#9457eb" red="148" green="87" blue="235">Lavender Indigo</color>
+  <color id="lavender_magenta" hex="#ee82ee" red="238" green="130" blue="238">Lavender Magenta</color>
+  <color id="lavender_mist" hex="#e6e6fa" red="230" green="230" blue="250">Lavender Mist</color>
+  <color id="lavender_pink" hex="#fbaed2" red="251" green="174" blue="210">Lavender Pink</color>
+  <color id="lavender_purple" hex="#967bb6" red="150" green="123" blue="182">Lavender Purple</color>
+  <color id="lavender_rose" hex="#fba0e3" red="251" green="160" blue="227">Lavender Rose</color>
+  <color id="lavender_web" hex="#e6e6fa" red="230" green="230" blue="250">Lavender (Web)</color>
+  <color id="lawn_green" hex="#7cfc00" red="124" green="252" blue="0">Lawn Green</color>
+  <color id="lemon" hex="#fff700" red="255" green="247" blue="0">Lemon</color>
+  <color id="lemon_chiffon" hex="#fffacd" red="255" green="250" blue="205">Lemon Chiffon</color>
+  <color id="lemon_lime" hex="#e3ff00" red="227" green="255" blue="0">Lemon Lime</color>
+  <color id="licorice" hex="#1a1110" red="26" green="17" blue="16">Licorice</color>
+  <color id="light_apricot" hex="#fdd5b1" red="253" green="213" blue="177">Light Apricot</color>
+  <color id="light_blue" hex="#add8e6" red="173" green="216" blue="230">Light Blue</color>
+  <color id="light_brown" hex="#b5651d" red="181" green="101" blue="29">Light Brown</color>
+  <color id="light_carmine_pink" hex="#e66771" red="230" green="103" blue="113">Light Carmine Pink</color>
+  <color id="light_coral" hex="#f08080" red="240" green="128" blue="128">Light Coral</color>
+  <color id="light_cornflower_blue" hex="#93ccea" red="147" green="204" blue="234">Light Cornflower Blue</color>
+  <color id="light_crimson" hex="#f56991" red="245" green="105" blue="145">Light Crimson</color>
+  <color id="light_cyan" hex="#e0ffff" red="224" green="255" blue="255">Light Cyan</color>
+  <color id="light_fuchsia_pink" hex="#f984ef" red="249" green="132" blue="239">Light Fuchsia Pink</color>
+  <color id="light_goldenrod_yellow" hex="#fafad2" red="250" green="250" blue="210">Light Goldenrod Yellow</color>
+  <color id="light_gray" hex="#d3d3d3" red="211" green="211" blue="211">Light Gray</color>
+  <color id="light_green" hex="#90ee90" red="144" green="238" blue="144">Light Green</color>
+  <color id="light_khaki" hex="#f0e68c" red="240" green="230" blue="140">Light Khaki</color>
+  <color id="light_pastel_purple" hex="#b19cd9" red="177" green="156" blue="217">Light Pastel Purple</color>
+  <color id="light_pink" hex="#ffb6c1" red="255" green="182" blue="193">Light Pink</color>
+  <color id="light_red_ochre" hex="#e97451" red="233" green="116" blue="81">Light Red Ochre</color>
+  <color id="light_salmon" hex="#ffa07a" red="255" green="160" blue="122">Light Salmon</color>
+  <color id="light_salmon_pink" hex="#f99" red="255" green="153" blue="153">Light Salmon Pink</color>
+  <color id="light_sea_green" hex="#20b2aa" red="32" green="178" blue="170">Light Sea Green</color>
+  <color id="light_sky_blue" hex="#87cefa" red="135" green="206" blue="250">Light Sky Blue</color>
+  <color id="light_slate_gray" hex="#789" red="119" green="136" blue="153">Light Slate Gray</color>
+  <color id="light_taupe" hex="#b38b6d" red="179" green="139" blue="109">Light Taupe</color>
+  <color id="light_thulian_pink" hex="#e68fac" red="230" green="143" blue="172">Light Thulian Pink</color>
+  <color id="light_yellow" hex="#ffffe0" red="255" green="255" blue="224">Light Yellow</color>
+  <color id="lilac" hex="#c8a2c8" red="200" green="162" blue="200">Lilac</color>
+  <color id="lime_color_wheel" hex="#bfff00" red="191" green="255" blue="0">Lime (Color Wheel)</color>
+  <color id="lime_green" hex="#32cd32" red="50" green="205" blue="50">Lime Green</color>
+  <color id="lime_web_x11_green" hex="#0f0" red="0" green="255" blue="0">Lime (Web) (X11 Green)</color>
+  <color id="limerick" hex="#9dc209" red="157" green="194" blue="9">Limerick</color>
+  <color id="lincoln_green" hex="#195905" red="25" green="89" blue="5">Lincoln Green</color>
+  <color id="linen" hex="#faf0e6" red="250" green="240" blue="230">Linen</color>
+  <color id="lion" hex="#c19a6b" red="193" green="154" blue="107">Lion</color>
+  <color id="little_boy_blue" hex="#6ca0dc" red="108" green="160" blue="220">Little Boy Blue</color>
+  <color id="liver" hex="#534b4f" red="83" green="75" blue="79">Liver</color>
+  <color id="lust" hex="#e62020" red="230" green="32" blue="32">Lust</color>
+  <color id="magenta" hex="#f0f" red="255" green="0" blue="255">Magenta</color>
+  <color id="magenta_dye" hex="#ca1f7b" red="202" green="31" blue="123">Magenta (Dye)</color>
+  <color id="magenta_process" hex="#ff0090" red="255" green="0" blue="144">Magenta (Process)</color>
+  <color id="magic_mint" hex="#aaf0d1" red="170" green="240" blue="209">Magic Mint</color>
+  <color id="magnolia" hex="#f8f4ff" red="248" green="244" blue="255">Magnolia</color>
+  <color id="mahogany" hex="#c04000" red="192" green="64" blue="0">Mahogany</color>
+  <color id="maize" hex="#fbec5d" red="251" green="236" blue="93">Maize</color>
+  <color id="majorelle_blue" hex="#6050dc" red="96" green="80" blue="220">Majorelle Blue</color>
+  <color id="malachite" hex="#0bda51" red="11" green="218" blue="81">Malachite</color>
+  <color id="manatee" hex="#979aaa" red="151" green="154" blue="170">Manatee</color>
+  <color id="mango_tango" hex="#ff8243" red="255" green="130" blue="67">Mango Tango</color>
+  <color id="mantis" hex="#74c365" red="116" green="195" blue="101">Mantis</color>
+  <color id="mardi_gras" hex="#880085" red="136" green="0" blue="133">Mardi Gras</color>
+  <color id="maroon_crayola" hex="#c32148" red="195" green="33" blue="72">Maroon (Crayola)</color>
+  <color id="maroon_html_css" hex="#800000" red="128" green="0" blue="0">Maroon (Html/Css)</color>
+  <color id="maroon_x11" hex="#b03060" red="176" green="48" blue="96">Maroon (X11)</color>
+  <color id="mauve" hex="#e0b0ff" red="224" green="176" blue="255">Mauve</color>
+  <color id="mauve_taupe" hex="#915f6d" red="145" green="95" blue="109">Mauve Taupe</color>
+  <color id="mauvelous" hex="#ef98aa" red="239" green="152" blue="170">Mauvelous</color>
+  <color id="maya_blue" hex="#73c2fb" red="115" green="194" blue="251">Maya Blue</color>
+  <color id="meat_brown" hex="#e5b73b" red="229" green="183" blue="59">Meat Brown</color>
+  <color id="medium_aquamarine" hex="#6da" red="102" green="221" blue="170">Medium Aquamarine</color>
+  <color id="medium_blue" hex="#0000cd" red="0" green="0" blue="205">Medium Blue</color>
+  <color id="medium_candy_apple_red" hex="#e2062c" red="226" green="6" blue="44">Medium Candy Apple Red</color>
+  <color id="medium_carmine" hex="#af4035" red="175" green="64" blue="53">Medium Carmine</color>
+  <color id="medium_champagne" hex="#f3e5ab" red="243" green="229" blue="171">Medium Champagne</color>
+  <color id="medium_electric_blue" hex="#035096" red="3" green="80" blue="150">Medium Electric Blue</color>
+  <color id="medium_jungle_green" hex="#1c352d" red="28" green="53" blue="45">Medium Jungle Green</color>
+  <color id="medium_lavender_magenta" hex="#dda0dd" red="221" green="160" blue="221">Medium Lavender Magenta</color>
+  <color id="medium_orchid" hex="#ba55d3" red="186" green="85" blue="211">Medium Orchid</color>
+  <color id="medium_persian_blue" hex="#0067a5" red="0" green="103" blue="165">Medium Persian Blue</color>
+  <color id="medium_purple" hex="#9370db" red="147" green="112" blue="219">Medium Purple</color>
+  <color id="medium_red_violet" hex="#bb3385" red="187" green="51" blue="133">Medium Red-Violet</color>
+  <color id="medium_ruby" hex="#aa4069" red="170" green="64" blue="105">Medium Ruby</color>
+  <color id="medium_sea_green" hex="#3cb371" red="60" green="179" blue="113">Medium Sea Green</color>
+  <color id="medium_slate_blue" hex="#7b68ee" red="123" green="104" blue="238">Medium Slate Blue</color>
+  <color id="medium_spring_bud" hex="#c9dc87" red="201" green="220" blue="135">Medium Spring Bud</color>
+  <color id="medium_spring_green" hex="#00fa9a" red="0" green="250" blue="154">Medium Spring Green</color>
+  <color id="medium_taupe" hex="#674c47" red="103" green="76" blue="71">Medium Taupe</color>
+  <color id="medium_turquoise" hex="#48d1cc" red="72" green="209" blue="204">Medium Turquoise</color>
+  <color id="medium_tuscan_red" hex="#79443b" red="121" green="68" blue="59">Medium Tuscan Red</color>
+  <color id="medium_vermilion" hex="#d9603b" red="217" green="96" blue="59">Medium Vermilion</color>
+  <color id="medium_violet_red" hex="#c71585" red="199" green="21" blue="133">Medium Violet-Red</color>
+  <color id="mellow_apricot" hex="#f8b878" red="248" green="184" blue="120">Mellow Apricot</color>
+  <color id="mellow_yellow" hex="#f8de7e" red="248" green="222" blue="126">Mellow Yellow</color>
+  <color id="melon" hex="#fdbcb4" red="253" green="188" blue="180">Melon</color>
+  <color id="midnight_blue" hex="#191970" red="25" green="25" blue="112">Midnight Blue</color>
+  <color id="midnight_green_eagle_green" hex="#004953" red="0" green="73" blue="83">Midnight Green (Eagle Green)</color>
+  <color id="mikado_yellow" hex="#ffc40c" red="255" green="196" blue="12">Mikado Yellow</color>
+  <color id="mint" hex="#3eb489" red="62" green="180" blue="137">Mint</color>
+  <color id="mint_cream" hex="#f5fffa" red="245" green="255" blue="250">Mint Cream</color>
+  <color id="mint_green" hex="#98ff98" red="152" green="255" blue="152">Mint Green</color>
+  <color id="misty_rose" hex="#ffe4e1" red="255" green="228" blue="225">Misty Rose</color>
+  <color id="moccasin" hex="#faebd7" red="250" green="235" blue="215">Moccasin</color>
+  <color id="mode_beige" hex="#967117" red="150" green="113" blue="23">Mode Beige</color>
+  <color id="moonstone_blue" hex="#73a9c2" red="115" green="169" blue="194">Moonstone Blue</color>
+  <color id="mordant_red_19" hex="#ae0c00" red="174" green="12" blue="0">Mordant Red 19</color>
+  <color id="moss_green" hex="#addfad" red="173" green="223" blue="173">Moss Green</color>
+  <color id="mountain_meadow" hex="#30ba8f" red="48" green="186" blue="143">Mountain Meadow</color>
+  <color id="mountbatten_pink" hex="#997a8d" red="153" green="122" blue="141">Mountbatten Pink</color>
+  <color id="msu_green" hex="#18453b" red="24" green="69" blue="59">Msu Green</color>
+  <color id="mulberry" hex="#c54b8c" red="197" green="75" blue="140">Mulberry</color>
+  <color id="mustard" hex="#ffdb58" red="255" green="219" blue="88">Mustard</color>
+  <color id="myrtle" hex="#21421e" red="33" green="66" blue="30">Myrtle</color>
+  <color id="nadeshiko_pink" hex="#f6adc6" red="246" green="173" blue="198">Nadeshiko Pink</color>
+  <color id="napier_green" hex="#2a8000" red="42" green="128" blue="0">Napier Green</color>
+  <color id="naples_yellow" hex="#fada5e" red="250" green="218" blue="94">Naples Yellow</color>
+  <color id="navajo_white" hex="#ffdead" red="255" green="222" blue="173">Navajo White</color>
+  <color id="navy_blue" hex="#000080" red="0" green="0" blue="128">Navy Blue</color>
+  <color id="neon_carrot" hex="#ffa343" red="255" green="163" blue="67">Neon Carrot</color>
+  <color id="neon_fuchsia" hex="#fe4164" red="254" green="65" blue="100">Neon Fuchsia</color>
+  <color id="neon_green" hex="#39ff14" red="57" green="255" blue="20">Neon Green</color>
+  <color id="new_york_pink" hex="#d7837f" red="215" green="131" blue="127">New York Pink</color>
+  <color id="non_photo_blue" hex="#a4dded" red="164" green="221" blue="237">Non-Photo Blue</color>
+  <color id="north_texas_green" hex="#059033" red="5" green="144" blue="51">North Texas Green</color>
+  <color id="ocean_boat_blue" hex="#0077be" red="0" green="119" blue="190">Ocean Boat Blue</color>
+  <color id="ochre" hex="#c72" red="204" green="119" blue="34">Ochre</color>
+  <color id="office_green" hex="#008000" red="0" green="128" blue="0">Office Green</color>
+  <color id="old_gold" hex="#cfb53b" red="207" green="181" blue="59">Old Gold</color>
+  <color id="old_lace" hex="#fdf5e6" red="253" green="245" blue="230">Old Lace</color>
+  <color id="old_lavender" hex="#796878" red="121" green="104" blue="120">Old Lavender</color>
+  <color id="old_mauve" hex="#673147" red="103" green="49" blue="71">Old Mauve</color>
+  <color id="old_rose" hex="#c08081" red="192" green="128" blue="129">Old Rose</color>
+  <color id="olive" hex="#808000" red="128" green="128" blue="0">Olive</color>
+  <color id="olive_drab_7" hex="#3c341f" red="60" green="52" blue="31">Olive Drab #7</color>
+  <color id="olive_drab_web_olive_drab_3" hex="#6b8e23" red="107" green="142" blue="35">Olive Drab (Web) (Olive Drab #3)</color>
+  <color id="olivine" hex="#9ab973" red="154" green="185" blue="115">Olivine</color>
+  <color id="onyx" hex="#353839" red="53" green="56" blue="57">Onyx</color>
+  <color id="opera_mauve" hex="#b784a7" red="183" green="132" blue="167">Opera Mauve</color>
+  <color id="orange_color_wheel" hex="#ff7f00" red="255" green="127" blue="0">Orange (Color Wheel)</color>
+  <color id="orange_peel" hex="#ff9f00" red="255" green="159" blue="0">Orange Peel</color>
+  <color id="orange_red" hex="#ff4500" red="255" green="69" blue="0">Orange-Red</color>
+  <color id="orange_ryb" hex="#fb9902" red="251" green="153" blue="2">Orange (Ryb)</color>
+  <color id="orange_web_color" hex="#ffa500" red="255" green="165" blue="0">Orange (Web Color)</color>
+  <color id="orchid" hex="#da70d6" red="218" green="112" blue="214">Orchid</color>
+  <color id="otter_brown" hex="#654321" red="101" green="67" blue="33">Otter Brown</color>
+  <color id="ou_crimson_red" hex="#900" red="153" green="0" blue="0">Ou Crimson Red</color>
+  <color id="outer_space" hex="#414a4c" red="65" green="74" blue="76">Outer Space</color>
+  <color id="outrageous_orange" hex="#ff6e4a" red="255" green="110" blue="74">Outrageous Orange</color>
+  <color id="oxford_blue" hex="#002147" red="0" green="33" blue="71">Oxford Blue</color>
+  <color id="pakistan_green" hex="#060" red="0" green="102" blue="0">Pakistan Green</color>
+  <color id="palatinate_blue" hex="#273be2" red="39" green="59" blue="226">Palatinate Blue</color>
+  <color id="palatinate_purple" hex="#682860" red="104" green="40" blue="96">Palatinate Purple</color>
+  <color id="pale_aqua" hex="#bcd4e6" red="188" green="212" blue="230">Pale Aqua</color>
+  <color id="pale_blue" hex="#afeeee" red="175" green="238" blue="238">Pale Blue</color>
+  <color id="pale_brown" hex="#987654" red="152" green="118" blue="84">Pale Brown</color>
+  <color id="pale_carmine" hex="#af4035" red="175" green="64" blue="53">Pale Carmine</color>
+  <color id="pale_cerulean" hex="#9bc4e2" red="155" green="196" blue="226">Pale Cerulean</color>
+  <color id="pale_chestnut" hex="#ddadaf" red="221" green="173" blue="175">Pale Chestnut</color>
+  <color id="pale_copper" hex="#da8a67" red="218" green="138" blue="103">Pale Copper</color>
+  <color id="pale_cornflower_blue" hex="#abcdef" red="171" green="205" blue="239">Pale Cornflower Blue</color>
+  <color id="pale_gold" hex="#e6be8a" red="230" green="190" blue="138">Pale Gold</color>
+  <color id="pale_goldenrod" hex="#eee8aa" red="238" green="232" blue="170">Pale Goldenrod</color>
+  <color id="pale_green" hex="#98fb98" red="152" green="251" blue="152">Pale Green</color>
+  <color id="pale_lavender" hex="#dcd0ff" red="220" green="208" blue="255">Pale Lavender</color>
+  <color id="pale_magenta" hex="#f984e5" red="249" green="132" blue="229">Pale Magenta</color>
+  <color id="pale_pink" hex="#fadadd" red="250" green="218" blue="221">Pale Pink</color>
+  <color id="pale_plum" hex="#dda0dd" red="221" green="160" blue="221">Pale Plum</color>
+  <color id="pale_red_violet" hex="#db7093" red="219" green="112" blue="147">Pale Red-Violet</color>
+  <color id="pale_robin_egg_blue" hex="#96ded1" red="150" green="222" blue="209">Pale Robin Egg Blue</color>
+  <color id="pale_silver" hex="#c9c0bb" red="201" green="192" blue="187">Pale Silver</color>
+  <color id="pale_spring_bud" hex="#ecebbd" red="236" green="235" blue="189">Pale Spring Bud</color>
+  <color id="pale_taupe" hex="#bc987e" red="188" green="152" blue="126">Pale Taupe</color>
+  <color id="pale_violet_red" hex="#db7093" red="219" green="112" blue="147">Pale Violet-Red</color>
+  <color id="pansy_purple" hex="#78184a" red="120" green="24" blue="74">Pansy Purple</color>
+  <color id="papaya_whip" hex="#ffefd5" red="255" green="239" blue="213">Papaya Whip</color>
+  <color id="paris_green" hex="#50c878" red="80" green="200" blue="120">Paris Green</color>
+  <color id="pastel_blue" hex="#aec6cf" red="174" green="198" blue="207">Pastel Blue</color>
+  <color id="pastel_brown" hex="#836953" red="131" green="105" blue="83">Pastel Brown</color>
+  <color id="pastel_gray" hex="#cfcfc4" red="207" green="207" blue="196">Pastel Gray</color>
+  <color id="pastel_green" hex="#7d7" red="119" green="221" blue="119">Pastel Green</color>
+  <color id="pastel_magenta" hex="#f49ac2" red="244" green="154" blue="194">Pastel Magenta</color>
+  <color id="pastel_orange" hex="#ffb347" red="255" green="179" blue="71">Pastel Orange</color>
+  <color id="pastel_pink" hex="#dea5a4" red="222" green="165" blue="164">Pastel Pink</color>
+  <color id="pastel_purple" hex="#b39eb5" red="179" green="158" blue="181">Pastel Purple</color>
+  <color id="pastel_red" hex="#ff6961" red="255" green="105" blue="97">Pastel Red</color>
+  <color id="pastel_violet" hex="#cb99c9" red="203" green="153" blue="201">Pastel Violet</color>
+  <color id="pastel_yellow" hex="#fdfd96" red="253" green="253" blue="150">Pastel Yellow</color>
+  <color id="patriarch" hex="#800080" red="128" green="0" blue="128">Patriarch</color>
+  <color id="payne_s_grey" hex="#536878" red="83" green="104" blue="120">Payne'S Grey</color>
+  <color id="peach" hex="#ffe5b4" red="255" green="229" blue="180">Peach</color>
+  <color id="peach_crayola" hex="#ffcba4" red="255" green="203" blue="164">Peach (Crayola)</color>
+  <color id="peach_orange" hex="#fc9" red="255" green="204" blue="153">Peach-Orange</color>
+  <color id="peach_puff" hex="#ffdab9" red="255" green="218" blue="185">Peach Puff</color>
+  <color id="peach_yellow" hex="#fadfad" red="250" green="223" blue="173">Peach-Yellow</color>
+  <color id="pear" hex="#d1e231" red="209" green="226" blue="49">Pear</color>
+  <color id="pearl" hex="#eae0c8" red="234" green="224" blue="200">Pearl</color>
+  <color id="pearl_aqua" hex="#88d8c0" red="136" green="216" blue="192">Pearl Aqua</color>
+  <color id="pearly_purple" hex="#b768a2" red="183" green="104" blue="162">Pearly Purple</color>
+  <color id="peridot" hex="#e6e200" red="230" green="226" blue="0">Peridot</color>
+  <color id="periwinkle" hex="#ccf" red="204" green="204" blue="255">Periwinkle</color>
+  <color id="persian_blue" hex="#1c39bb" red="28" green="57" blue="187">Persian Blue</color>
+  <color id="persian_green" hex="#00a693" red="0" green="166" blue="147">Persian Green</color>
+  <color id="persian_indigo" hex="#32127a" red="50" green="18" blue="122">Persian Indigo</color>
+  <color id="persian_orange" hex="#d99058" red="217" green="144" blue="88">Persian Orange</color>
+  <color id="persian_pink" hex="#f77fbe" red="247" green="127" blue="190">Persian Pink</color>
+  <color id="persian_plum" hex="#701c1c" red="112" green="28" blue="28">Persian Plum</color>
+  <color id="persian_red" hex="#c33" red="204" green="51" blue="51">Persian Red</color>
+  <color id="persian_rose" hex="#fe28a2" red="254" green="40" blue="162">Persian Rose</color>
+  <color id="persimmon" hex="#ec5800" red="236" green="88" blue="0">Persimmon</color>
+  <color id="peru" hex="#cd853f" red="205" green="133" blue="63">Peru</color>
+  <color id="phlox" hex="#df00ff" red="223" green="0" blue="255">Phlox</color>
+  <color id="phthalo_blue" hex="#000f89" red="0" green="15" blue="137">Phthalo Blue</color>
+  <color id="phthalo_green" hex="#123524" red="18" green="53" blue="36">Phthalo Green</color>
+  <color id="piggy_pink" hex="#fddde6" red="253" green="221" blue="230">Piggy Pink</color>
+  <color id="pine_green" hex="#01796f" red="1" green="121" blue="111">Pine Green</color>
+  <color id="pink" hex="#ffc0cb" red="255" green="192" blue="203">Pink</color>
+  <color id="pink_lace" hex="#ffddf4" red="255" green="221" blue="244">Pink Lace</color>
+  <color id="pink_orange" hex="#f96" red="255" green="153" blue="102">Pink-Orange</color>
+  <color id="pink_pearl" hex="#e7accf" red="231" green="172" blue="207">Pink Pearl</color>
+  <color id="pink_sherbet" hex="#f78fa7" red="247" green="143" blue="167">Pink Sherbet</color>
+  <color id="pistachio" hex="#93c572" red="147" green="197" blue="114">Pistachio</color>
+  <color id="platinum" hex="#e5e4e2" red="229" green="228" blue="226">Platinum</color>
+  <color id="plum_traditional" hex="#8e4585" red="142" green="69" blue="133">Plum (Traditional)</color>
+  <color id="plum_web" hex="#dda0dd" red="221" green="160" blue="221">Plum (Web)</color>
+  <color id="portland_orange" hex="#ff5a36" red="255" green="90" blue="54">Portland Orange</color>
+  <color id="powder_blue_web" hex="#b0e0e6" red="176" green="224" blue="230">Powder Blue (Web)</color>
+  <color id="princeton_orange" hex="#ff8f00" red="255" green="143" blue="0">Princeton Orange</color>
+  <color id="prune" hex="#701c1c" red="112" green="28" blue="28">Prune</color>
+  <color id="prussian_blue" hex="#003153" red="0" green="49" blue="83">Prussian Blue</color>
+  <color id="psychedelic_purple" hex="#df00ff" red="223" green="0" blue="255">Psychedelic Purple</color>
+  <color id="puce" hex="#c89" red="204" green="136" blue="153">Puce</color>
+  <color id="pumpkin" hex="#ff7518" red="255" green="117" blue="24">Pumpkin</color>
+  <color id="purple_heart" hex="#69359c" red="105" green="53" blue="156">Purple Heart</color>
+  <color id="purple_html_css" hex="#800080" red="128" green="0" blue="128">Purple (Html/Css)</color>
+  <color id="purple_mountain_majesty" hex="#9678b6" red="150" green="120" blue="182">Purple Mountain Majesty</color>
+  <color id="purple_munsell" hex="#9f00c5" red="159" green="0" blue="197">Purple (Munsell)</color>
+  <color id="purple_pizzazz" hex="#fe4eda" red="254" green="78" blue="218">Purple Pizzazz</color>
+  <color id="purple_taupe" hex="#50404d" red="80" green="64" blue="77">Purple Taupe</color>
+  <color id="purple_x11" hex="#a020f0" red="160" green="32" blue="240">Purple (X11)</color>
+  <color id="quartz" hex="#51484f" red="81" green="72" blue="79">Quartz</color>
+  <color id="rackley" hex="#5d8aa8" red="93" green="138" blue="168">Rackley</color>
+  <color id="radical_red" hex="#ff355e" red="255" green="53" blue="94">Radical Red</color>
+  <color id="rajah" hex="#fbab60" red="251" green="171" blue="96">Rajah</color>
+  <color id="raspberry" hex="#e30b5d" red="227" green="11" blue="93">Raspberry</color>
+  <color id="raspberry_glace" hex="#915f6d" red="145" green="95" blue="109">Raspberry Glace</color>
+  <color id="raspberry_pink" hex="#e25098" red="226" green="80" blue="152">Raspberry Pink</color>
+  <color id="raspberry_rose" hex="#b3446c" red="179" green="68" blue="108">Raspberry Rose</color>
+  <color id="raw_umber" hex="#826644" red="130" green="102" blue="68">Raw Umber</color>
+  <color id="razzle_dazzle_rose" hex="#f3c" red="255" green="51" blue="204">Razzle Dazzle Rose</color>
+  <color id="razzmatazz" hex="#e3256b" red="227" green="37" blue="107">Razzmatazz</color>
+  <color id="red" hex="#f00" red="255" green="0" blue="0">Red</color>
+  <color id="red_brown" hex="#a52a2a" red="165" green="42" blue="42">Red-Brown</color>
+  <color id="red_devil" hex="#860111" red="134" green="1" blue="17">Red Devil</color>
+  <color id="red_munsell" hex="#f2003c" red="242" green="0" blue="60">Red (Munsell)</color>
+  <color id="red_ncs" hex="#c40233" red="196" green="2" blue="51">Red (Ncs)</color>
+  <color id="red_orange" hex="#ff5349" red="255" green="83" blue="73">Red-Orange</color>
+  <color id="red_pigment" hex="#ed1c24" red="237" green="28" blue="36">Red (Pigment)</color>
+  <color id="red_ryb" hex="#fe2712" red="254" green="39" blue="18">Red (Ryb)</color>
+  <color id="red_violet" hex="#c71585" red="199" green="21" blue="133">Red-Violet</color>
+  <color id="redwood" hex="#ab4e52" red="171" green="78" blue="82">Redwood</color>
+  <color id="regalia" hex="#522d80" red="82" green="45" blue="128">Regalia</color>
+  <color id="resolution_blue" hex="#002387" red="0" green="35" blue="135">Resolution Blue</color>
+  <color id="rich_black" hex="#004040" red="0" green="64" blue="64">Rich Black</color>
+  <color id="rich_brilliant_lavender" hex="#f1a7fe" red="241" green="167" blue="254">Rich Brilliant Lavender</color>
+  <color id="rich_carmine" hex="#d70040" red="215" green="0" blue="64">Rich Carmine</color>
+  <color id="rich_electric_blue" hex="#0892d0" red="8" green="146" blue="208">Rich Electric Blue</color>
+  <color id="rich_lavender" hex="#a76bcf" red="167" green="107" blue="207">Rich Lavender</color>
+  <color id="rich_lilac" hex="#b666d2" red="182" green="102" blue="210">Rich Lilac</color>
+  <color id="rich_maroon" hex="#b03060" red="176" green="48" blue="96">Rich Maroon</color>
+  <color id="rifle_green" hex="#414833" red="65" green="72" blue="51">Rifle Green</color>
+  <color id="robin_egg_blue" hex="#0cc" red="0" green="204" blue="204">Robin Egg Blue</color>
+  <color id="rose" hex="#ff007f" red="255" green="0" blue="127">Rose</color>
+  <color id="rose_bonbon" hex="#f9429e" red="249" green="66" blue="158">Rose Bonbon</color>
+  <color id="rose_ebony" hex="#674846" red="103" green="72" blue="70">Rose Ebony</color>
+  <color id="rose_gold" hex="#b76e79" red="183" green="110" blue="121">Rose Gold</color>
+  <color id="rose_madder" hex="#e32636" red="227" green="38" blue="54">Rose Madder</color>
+  <color id="rose_pink" hex="#f6c" red="255" green="102" blue="204">Rose Pink</color>
+  <color id="rose_quartz" hex="#aa98a9" red="170" green="152" blue="169">Rose Quartz</color>
+  <color id="rose_taupe" hex="#905d5d" red="144" green="93" blue="93">Rose Taupe</color>
+  <color id="rose_vale" hex="#ab4e52" red="171" green="78" blue="82">Rose Vale</color>
+  <color id="rosewood" hex="#65000b" red="101" green="0" blue="11">Rosewood</color>
+  <color id="rosso_corsa" hex="#d40000" red="212" green="0" blue="0">Rosso Corsa</color>
+  <color id="rosy_brown" hex="#bc8f8f" red="188" green="143" blue="143">Rosy Brown</color>
+  <color id="royal_azure" hex="#0038a8" red="0" green="56" blue="168">Royal Azure</color>
+  <color id="royal_blue_traditional" hex="#002366" red="0" green="35" blue="102">Royal Blue (Traditional)</color>
+  <color id="royal_blue_web" hex="#4169e1" red="65" green="105" blue="225">Royal Blue (Web)</color>
+  <color id="royal_fuchsia" hex="#ca2c92" red="202" green="44" blue="146">Royal Fuchsia</color>
+  <color id="royal_purple" hex="#7851a9" red="120" green="81" blue="169">Royal Purple</color>
+  <color id="royal_yellow" hex="#fada5e" red="250" green="218" blue="94">Royal Yellow</color>
+  <color id="rubine_red" hex="#d10056" red="209" green="0" blue="86">Rubine Red</color>
+  <color id="ruby" hex="#e0115f" red="224" green="17" blue="95">Ruby</color>
+  <color id="ruby_red" hex="#9b111e" red="155" green="17" blue="30">Ruby Red</color>
+  <color id="ruddy" hex="#ff0028" red="255" green="0" blue="40">Ruddy</color>
+  <color id="ruddy_brown" hex="#bb6528" red="187" green="101" blue="40">Ruddy Brown</color>
+  <color id="ruddy_pink" hex="#e18e96" red="225" green="142" blue="150">Ruddy Pink</color>
+  <color id="rufous" hex="#a81c07" red="168" green="28" blue="7">Rufous</color>
+  <color id="russet" hex="#80461b" red="128" green="70" blue="27">Russet</color>
+  <color id="rust" hex="#b7410e" red="183" green="65" blue="14">Rust</color>
+  <color id="rusty_red" hex="#da2c43" red="218" green="44" blue="67">Rusty Red</color>
+  <color id="sacramento_state_green" hex="#00563f" red="0" green="86" blue="63">Sacramento State Green</color>
+  <color id="saddle_brown" hex="#8b4513" red="139" green="69" blue="19">Saddle Brown</color>
+  <color id="safety_orange_blaze_orange" hex="#ff6700" red="255" green="103" blue="0">Safety Orange (Blaze Orange)</color>
+  <color id="saffron" hex="#f4c430" red="244" green="196" blue="48">Saffron</color>
+  <color id="salmon" hex="#ff8c69" red="255" green="140" blue="105">Salmon</color>
+  <color id="salmon_pink" hex="#ff91a4" red="255" green="145" blue="164">Salmon Pink</color>
+  <color id="sand" hex="#c2b280" red="194" green="178" blue="128">Sand</color>
+  <color id="sand_dune" hex="#967117" red="150" green="113" blue="23">Sand Dune</color>
+  <color id="sandstorm" hex="#ecd540" red="236" green="213" blue="64">Sandstorm</color>
+  <color id="sandy_brown" hex="#f4a460" red="244" green="164" blue="96">Sandy Brown</color>
+  <color id="sandy_taupe" hex="#967117" red="150" green="113" blue="23">Sandy Taupe</color>
+  <color id="sangria" hex="#92000a" red="146" green="0" blue="10">Sangria</color>
+  <color id="sap_green" hex="#507d2a" red="80" green="125" blue="42">Sap Green</color>
+  <color id="sapphire" hex="#0f52ba" red="15" green="82" blue="186">Sapphire</color>
+  <color id="sapphire_blue" hex="#0067a5" red="0" green="103" blue="165">Sapphire Blue</color>
+  <color id="satin_sheen_gold" hex="#cba135" red="203" green="161" blue="53">Satin Sheen Gold</color>
+  <color id="scarlet" hex="#ff2400" red="255" green="36" blue="0">Scarlet</color>
+  <color id="scarlet_crayola" hex="#fd0e35" red="253" green="14" blue="53">Scarlet (Crayola)</color>
+  <color id="school_bus_yellow" hex="#ffd800" red="255" green="216" blue="0">School Bus Yellow</color>
+  <color id="screamin_green" hex="#76ff7a" red="118" green="255" blue="122">Screamin' Green</color>
+  <color id="sea_blue" hex="#006994" red="0" green="105" blue="148">Sea Blue</color>
+  <color id="sea_green" hex="#2e8b57" red="46" green="139" blue="87">Sea Green</color>
+  <color id="seal_brown" hex="#321414" red="50" green="20" blue="20">Seal Brown</color>
+  <color id="seashell" hex="#fff5ee" red="255" green="245" blue="238">Seashell</color>
+  <color id="selective_yellow" hex="#ffba00" red="255" green="186" blue="0">Selective Yellow</color>
+  <color id="sepia" hex="#704214" red="112" green="66" blue="20">Sepia</color>
+  <color id="shadow" hex="#8a795d" red="138" green="121" blue="93">Shadow</color>
+  <color id="shamrock_green" hex="#009e60" red="0" green="158" blue="96">Shamrock Green</color>
+  <color id="shocking_pink" hex="#fc0fc0" red="252" green="15" blue="192">Shocking Pink</color>
+  <color id="shocking_pink_crayola" hex="#ff6fff" red="255" green="111" blue="255">Shocking Pink (Crayola)</color>
+  <color id="sienna" hex="#882d17" red="136" green="45" blue="23">Sienna</color>
+  <color id="silver" hex="#c0c0c0" red="192" green="192" blue="192">Silver</color>
+  <color id="sinopia" hex="#cb410b" red="203" green="65" blue="11">Sinopia</color>
+  <color id="skobeloff" hex="#007474" red="0" green="116" blue="116">Skobeloff</color>
+  <color id="sky_blue" hex="#87ceeb" red="135" green="206" blue="235">Sky Blue</color>
+  <color id="sky_magenta" hex="#cf71af" red="207" green="113" blue="175">Sky Magenta</color>
+  <color id="slate_blue" hex="#6a5acd" red="106" green="90" blue="205">Slate Blue</color>
+  <color id="slate_gray" hex="#708090" red="112" green="128" blue="144">Slate Gray</color>
+  <color id="smalt_dark_powder_blue" hex="#039" red="0" green="51" blue="153">Smalt (Dark Powder Blue)</color>
+  <color id="smokey_topaz" hex="#933d41" red="147" green="61" blue="65">Smokey Topaz</color>
+  <color id="smoky_black" hex="#100c08" red="16" green="12" blue="8">Smoky Black</color>
+  <color id="snow" hex="#fffafa" red="255" green="250" blue="250">Snow</color>
+  <color id="spiro_disco_ball" hex="#0fc0fc" red="15" green="192" blue="252">Spiro Disco Ball</color>
+  <color id="spring_bud" hex="#a7fc00" red="167" green="252" blue="0">Spring Bud</color>
+  <color id="spring_green" hex="#00ff7f" red="0" green="255" blue="127">Spring Green</color>
+  <color id="st_patrick_s_blue" hex="#23297a" red="35" green="41" blue="122">St. Patrick'S Blue</color>
+  <color id="steel_blue" hex="#4682b4" red="70" green="130" blue="180">Steel Blue</color>
+  <color id="stil_de_grain_yellow" hex="#fada5e" red="250" green="218" blue="94">Stil De Grain Yellow</color>
+  <color id="stizza" hex="#900" red="153" green="0" blue="0">Stizza</color>
+  <color id="stormcloud" hex="#4f666a" red="79" green="102" blue="106">Stormcloud</color>
+  <color id="straw" hex="#e4d96f" red="228" green="217" blue="111">Straw</color>
+  <color id="sunglow" hex="#fc3" red="255" green="204" blue="51">Sunglow</color>
+  <color id="sunset" hex="#fad6a5" red="250" green="214" blue="165">Sunset</color>
+  <color id="tan" hex="#d2b48c" red="210" green="180" blue="140">Tan</color>
+  <color id="tangelo" hex="#f94d00" red="249" green="77" blue="0">Tangelo</color>
+  <color id="tangerine" hex="#f28500" red="242" green="133" blue="0">Tangerine</color>
+  <color id="tangerine_yellow" hex="#fc0" red="255" green="204" blue="0">Tangerine Yellow</color>
+  <color id="tango_pink" hex="#e4717a" red="228" green="113" blue="122">Tango Pink</color>
+  <color id="taupe" hex="#483c32" red="72" green="60" blue="50">Taupe</color>
+  <color id="taupe_gray" hex="#8b8589" red="139" green="133" blue="137">Taupe Gray</color>
+  <color id="tea_green" hex="#d0f0c0" red="208" green="240" blue="192">Tea Green</color>
+  <color id="tea_rose_orange" hex="#f88379" red="248" green="131" blue="121">Tea Rose (Orange)</color>
+  <color id="tea_rose_rose" hex="#f4c2c2" red="244" green="194" blue="194">Tea Rose (Rose)</color>
+  <color id="teal" hex="#008080" red="0" green="128" blue="128">Teal</color>
+  <color id="teal_blue" hex="#367588" red="54" green="117" blue="136">Teal Blue</color>
+  <color id="teal_green" hex="#00827f" red="0" green="130" blue="127">Teal Green</color>
+  <color id="telemagenta" hex="#cf3476" red="207" green="52" blue="118">Telemagenta</color>
+  <color id="tenn_tawny" hex="#cd5700" red="205" green="87" blue="0">Tenné (Tawny)</color>
+  <color id="terra_cotta" hex="#e2725b" red="226" green="114" blue="91">Terra Cotta</color>
+  <color id="thistle" hex="#d8bfd8" red="216" green="191" blue="216">Thistle</color>
+  <color id="thulian_pink" hex="#de6fa1" red="222" green="111" blue="161">Thulian Pink</color>
+  <color id="tickle_me_pink" hex="#fc89ac" red="252" green="137" blue="172">Tickle Me Pink</color>
+  <color id="tiffany_blue" hex="#0abab5" red="10" green="186" blue="181">Tiffany Blue</color>
+  <color id="tiger_s_eye" hex="#e08d3c" red="224" green="141" blue="60">Tiger'S Eye</color>
+  <color id="timberwolf" hex="#dbd7d2" red="219" green="215" blue="210">Timberwolf</color>
+  <color id="titanium_yellow" hex="#eee600" red="238" green="230" blue="0">Titanium Yellow</color>
+  <color id="tomato" hex="#ff6347" red="255" green="99" blue="71">Tomato</color>
+  <color id="toolbox" hex="#746cc0" red="116" green="108" blue="192">Toolbox</color>
+  <color id="topaz" hex="#ffc87c" red="255" green="200" blue="124">Topaz</color>
+  <color id="tractor_red" hex="#fd0e35" red="253" green="14" blue="53">Tractor Red</color>
+  <color id="trolley_grey" hex="#808080" red="128" green="128" blue="128">Trolley Grey</color>
+  <color id="tropical_rain_forest" hex="#00755e" red="0" green="117" blue="94">Tropical Rain Forest</color>
+  <color id="true_blue" hex="#0073cf" red="0" green="115" blue="207">True Blue</color>
+  <color id="tufts_blue" hex="#417dc1" red="65" green="125" blue="193">Tufts Blue</color>
+  <color id="tumbleweed" hex="#deaa88" red="222" green="170" blue="136">Tumbleweed</color>
+  <color id="turkish_rose" hex="#b57281" red="181" green="114" blue="129">Turkish Rose</color>
+  <color id="turquoise" hex="#30d5c8" red="48" green="213" blue="200">Turquoise</color>
+  <color id="turquoise_blue" hex="#00ffef" red="0" green="255" blue="239">Turquoise Blue</color>
+  <color id="turquoise_green" hex="#a0d6b4" red="160" green="214" blue="180">Turquoise Green</color>
+  <color id="tuscan_red" hex="#7c4848" red="124" green="72" blue="72">Tuscan Red</color>
+  <color id="twilight_lavender" hex="#8a496b" red="138" green="73" blue="107">Twilight Lavender</color>
+  <color id="tyrian_purple" hex="#66023c" red="102" green="2" blue="60">Tyrian Purple</color>
+  <color id="ua_blue" hex="#03a" red="0" green="51" blue="170">Ua Blue</color>
+  <color id="ua_red" hex="#d9004c" red="217" green="0" blue="76">Ua Red</color>
+  <color id="ube" hex="#8878c3" red="136" green="120" blue="195">Ube</color>
+  <color id="ucla_blue" hex="#536895" red="83" green="104" blue="149">Ucla Blue</color>
+  <color id="ucla_gold" hex="#ffb300" red="255" green="179" blue="0">Ucla Gold</color>
+  <color id="ufo_green" hex="#3cd070" red="60" green="208" blue="112">Ufo Green</color>
+  <color id="ultra_pink" hex="#ff6fff" red="255" green="111" blue="255">Ultra Pink</color>
+  <color id="ultramarine" hex="#120a8f" red="18" green="10" blue="143">Ultramarine</color>
+  <color id="ultramarine_blue" hex="#4166f5" red="65" green="102" blue="245">Ultramarine Blue</color>
+  <color id="umber" hex="#635147" red="99" green="81" blue="71">Umber</color>
+  <color id="unbleached_silk" hex="#ffddca" red="255" green="221" blue="202">Unbleached Silk</color>
+  <color id="united_nations_blue" hex="#5b92e5" red="91" green="146" blue="229">United Nations Blue</color>
+  <color id="university_of_california_gold" hex="#b78727" red="183" green="135" blue="39">University Of California Gold</color>
+  <color id="unmellow_yellow" hex="#ff6" red="255" green="255" blue="102">Unmellow Yellow</color>
+  <color id="up_forest_green" hex="#014421" red="1" green="68" blue="33">Up Forest Green</color>
+  <color id="up_maroon" hex="#7b1113" red="123" green="17" blue="19">Up Maroon</color>
+  <color id="upsdell_red" hex="#ae2029" red="174" green="32" blue="41">Upsdell Red</color>
+  <color id="urobilin" hex="#e1ad21" red="225" green="173" blue="33">Urobilin</color>
+  <color id="usafa_blue" hex="#004f98" red="0" green="79" blue="152">Usafa Blue</color>
+  <color id="usc_cardinal" hex="#900" red="153" green="0" blue="0">Usc Cardinal</color>
+  <color id="usc_gold" hex="#fc0" red="255" green="204" blue="0">Usc Gold</color>
+  <color id="utah_crimson" hex="#d3003f" red="211" green="0" blue="63">Utah Crimson</color>
+  <color id="vanilla" hex="#f3e5ab" red="243" green="229" blue="171">Vanilla</color>
+  <color id="vegas_gold" hex="#c5b358" red="197" green="179" blue="88">Vegas Gold</color>
+  <color id="venetian_red" hex="#c80815" red="200" green="8" blue="21">Venetian Red</color>
+  <color id="verdigris" hex="#43b3ae" red="67" green="179" blue="174">Verdigris</color>
+  <color id="vermilion_cinnabar" hex="#e34234" red="227" green="66" blue="52">Vermilion (Cinnabar)</color>
+  <color id="vermilion_plochere" hex="#d9603b" red="217" green="96" blue="59">Vermilion (Plochere)</color>
+  <color id="veronica" hex="#a020f0" red="160" green="32" blue="240">Veronica</color>
+  <color id="violet" hex="#8f00ff" red="143" green="0" blue="255">Violet</color>
+  <color id="violet_blue" hex="#324ab2" red="50" green="74" blue="178">Violet-Blue</color>
+  <color id="violet_color_wheel" hex="#7f00ff" red="127" green="0" blue="255">Violet (Color Wheel)</color>
+  <color id="violet_ryb" hex="#8601af" red="134" green="1" blue="175">Violet (Ryb)</color>
+  <color id="violet_web" hex="#ee82ee" red="238" green="130" blue="238">Violet (Web)</color>
+  <color id="viridian" hex="#40826d" red="64" green="130" blue="109">Viridian</color>
+  <color id="vivid_auburn" hex="#922724" red="146" green="39" blue="36">Vivid Auburn</color>
+  <color id="vivid_burgundy" hex="#9f1d35" red="159" green="29" blue="53">Vivid Burgundy</color>
+  <color id="vivid_cerise" hex="#da1d81" red="218" green="29" blue="129">Vivid Cerise</color>
+  <color id="vivid_tangerine" hex="#ffa089" red="255" green="160" blue="137">Vivid Tangerine</color>
+  <color id="vivid_violet" hex="#9f00ff" red="159" green="0" blue="255">Vivid Violet</color>
+  <color id="warm_black" hex="#004242" red="0" green="66" blue="66">Warm Black</color>
+  <color id="waterspout" hex="#a4f4f9" red="164" green="244" blue="249">Waterspout</color>
+  <color id="wenge" hex="#645452" red="100" green="84" blue="82">Wenge</color>
+  <color id="wheat" hex="#f5deb3" red="245" green="222" blue="179">Wheat</color>
+  <color id="white" hex="#fff" red="255" green="255" blue="255">White</color>
+  <color id="white_smoke" hex="#f5f5f5" red="245" green="245" blue="245">White Smoke</color>
+  <color id="wild_blue_yonder" hex="#a2add0" red="162" green="173" blue="208">Wild Blue Yonder</color>
+  <color id="wild_strawberry" hex="#ff43a4" red="255" green="67" blue="164">Wild Strawberry</color>
+  <color id="wild_watermelon" hex="#fc6c85" red="252" green="108" blue="133">Wild Watermelon</color>
+  <color id="wine" hex="#722f37" red="114" green="47" blue="55">Wine</color>
+  <color id="wine_dregs" hex="#673147" red="103" green="49" blue="71">Wine Dregs</color>
+  <color id="wisteria" hex="#c9a0dc" red="201" green="160" blue="220">Wisteria</color>
+  <color id="wood_brown" hex="#c19a6b" red="193" green="154" blue="107">Wood Brown</color>
+  <color id="xanadu" hex="#738678" red="115" green="134" blue="120">Xanadu</color>
+  <color id="yale_blue" hex="#0f4d92" red="15" green="77" blue="146">Yale Blue</color>
+  <color id="yellow" hex="#ff0" red="255" green="255" blue="0">Yellow</color>
+  <color id="yellow_green" hex="#9acd32" red="154" green="205" blue="50">Yellow-Green</color>
+  <color id="yellow_munsell" hex="#efcc00" red="239" green="204" blue="0">Yellow (Munsell)</color>
+  <color id="yellow_ncs" hex="#ffd300" red="255" green="211" blue="0">Yellow (Ncs)</color>
+  <color id="yellow_orange" hex="#ffae42" red="255" green="174" blue="66">Yellow Orange</color>
+  <color id="yellow_process" hex="#ffef00" red="255" green="239" blue="0">Yellow (Process)</color>
+  <color id="yellow_ryb" hex="#fefe33" red="254" green="254" blue="51">Yellow (Ryb)</color>
+  <color id="zaffre" hex="#0014a8" red="0" green="20" blue="168">Zaffre</color>
+  <color id="zinnwaldite_brown" hex="#2c1608" red="44" green="22" blue="8">Zinnwaldite Brown</color>
+</colors>

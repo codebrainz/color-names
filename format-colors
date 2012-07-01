@@ -1,0 +1,249 @@
+#!/usr/bin/env python
+
+import sys
+import re
+from xml.sax.saxutils import escape
+from optparse import OptionParser
+
+def parse_files(*files):
+  def simplify_hex_color(hx):
+    hx = hx.strip().strip('#').strip()
+    if len(hx) == 6 and \
+      hx[0] == hx[1] and hx[2] == hx[3] and hx[4] == hx[5]:
+      hx = hx[0] + hx[2] + hx[4]
+    return '#' + hx
+  def hex_to_rgb_triplet(hx):
+    hx = hx.strip().strip('#')
+    if len(hx) == 3:
+      hx = hx[0]*2 + hx[1]*2 + hx[3]*2
+    r,g,b = hx[0:2], hx[2:4], hx[4:6]
+    r,g,b = int(r, 16), int(g, 16), int(b, 16)
+    return r,g,b
+  def make_identifier(name):
+    ident = re.sub('[^a-zA-Z0-9_]+', '_', name)
+    ident = re.sub('[_]+', '_', ident)
+    ident = ident.strip('_')
+    if len(ident) == 0:
+      ident = '_'
+    if ident[0].isdigit():
+      ident = '_' + ident
+    return ident.lower()
+  def split_line(line):
+    fields = line.split('\t')
+    return (make_identifier(fields[0]),
+            fields[0],
+            simplify_hex_color(fields[1]),
+            hex_to_rgb_triplet(fields[1]))
+  def process_line(line):
+    if len(line) > 0 and line[0].isspace(): return line.strip()
+    else: return ''
+  all_lines = []
+  for fn in files:
+    content = open(fn).read()
+    lines = content.split('\n')
+    lines = [process_line(l) for l in lines]
+    lines = [l.strip() for l in lines if l.strip()]
+    lines = [split_line(l) for l in lines]
+    all_lines.extend(lines)
+
+  out_dict = {}
+  for line in all_lines:
+    out_dict[line[0].strip()] = {
+      "name": line[1].strip().title(),
+      "hex": line[2].lower().strip(),
+      "rgb": line[3]
+    }
+
+  return out_dict
+
+def to_json(color_dict):
+  indent = '  '
+  code = '{\n'
+  for k, v in sorted(color_dict.items()):
+    code += indent   + '"%s": {\n' % k
+    code += indent*2 +   '"name": "%s",\n' % v["name"]
+    code += indent*2 +   '"hex": "%s",\n' % v["hex"]
+    code += indent*2 +   '"rgb": [%d, %d, %d],\n' % v["rgb"]
+    code += indent + '},\n'
+  code += '}\n'
+  return code
+
+def to_conf(color_dict):
+  code = ''
+  for k, v in sorted(color_dict.items()):
+    code += '[%s]\n' % k
+    code += 'name=%s\n' % v["name"]
+    code += 'hex=%s\n' % v["hex"]
+    code += 'rgb=%d;%d;%d\n\n' % v["rgb"]
+  return code
+
+def to_sexp(color_dict):
+  indent = '  '
+  code = '(\n'
+  for k, v in sorted(color_dict.items()):
+    code += indent + "(%s '%s' '%s' (%d %d %d))\n" % (k, v["name"], v["hex"],
+      v["rgb"][0], v["rgb"][1], v["rgb"][2])
+  code += ')\n'
+  return code
+
+def to_xml(color_dict):
+  code = '<?xml version="1.0" encoding="utf-8"?>\n'
+  code += '<colors>\n'
+  indent = '  '
+  for k, v in sorted(color_dict.items()):
+    name = escape(v["name"])
+    code += indent + '<color id="%s" hex="%s" red="%d" green="%d" blue="%d">' % (
+      k, v["hex"], v["rgb"][0], v["rgb"][1], v["rgb"][2])
+    code += name + '</color>\n'
+  code += '</colors>\n'
+  return code
+
+def to_csv(color_dict):
+  code = ''
+  for k, v in sorted(color_dict.items()):
+    code += '%s,' % k
+    code += '"%s",' % v["name"]
+    code += '%s,' % v["hex"]
+    code += '%d,%d,%d\n' % v["rgb"]
+  return code
+
+def to_ccode(color_dict):
+  indent = '  '
+  code = '/* This file is auto-generated, do not edit. */\n\n'
+  code += '#define COLOR_NAMES_MAX %d\n\n' % len(color_dict.items())
+  code += 'typedef struct ColorInfo {\n'
+  code += indent   + 'const char *name;\n'
+  code += indent   + 'const char *hex;\n'
+  code += indent   + 'struct {\n'
+  code += indent*2 +   'unsigned char r;\n'
+  code += indent*2 +   'unsigned char g;\n'
+  code += indent*2 +   'unsigned char b;\n'
+  code += indent   + '} rgb;\n'
+  code += '} ColorInfo;\n\n'
+  code += 'typedef enum Color {\n'
+  first = True
+  for k, v in sorted(color_dict.items()):
+    if first:
+      code += indent + 'COLOR_%s=0,\n' % k.upper()
+      first = False
+    else:
+      code += indent + 'COLOR_%s,\n' % k.upper()
+  code = code.rstrip()
+  if code.endswith(','):
+    code = code[0:-1]
+  code += '\n'
+  code += '} Color;\n\n'
+  code += 'const ColorInfo color_data[COLOR_NAMES_MAX] = {\n'
+  for k, v in sorted(color_dict.items()):
+    code += indent + '{ "%s", "%s", { %d, %d, %d } },\n' % (
+      v["name"], v["hex"], v["rgb"][0], v["rgb"][1], v["rgb"][2])
+  code = code.rstrip()
+  if code.endswith(','):
+    code = code[0:-1]
+  code += '\n};\n'
+  return code
+
+def to_html(color_dict):
+  code = '''<html>
+  <head>
+    <title>List of Colors</title>
+    <style type="text/css">
+    body, h1, table, tr, th, td {
+      font-family: monospace;
+    }
+    table, th, td {
+      border: 1px #DCDCDC solid;
+    }
+    th {
+      background-color: #D8D8D8;
+    }
+    .swatch {
+      width: 64px;
+    }
+    .color_hex, .color_rgb {
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>List of Colors</h1>
+    <p>Source:
+      <a href="http://en.wikipedia.org/wiki/List_of_colors">http://en.wikipedia.org/wiki/List_of_colors</a>
+    </p>
+    <table cellpadding="2" cellspacing="1" border="1">
+      <tr>
+        <th>Swatch</th>
+        <th>Name</th>
+        <th>HTML</th>
+        <th>R</th><th>G</th><th>B</th>
+      </tr>
+'''
+  for k, v in sorted(color_dict.items()):
+    code += '      <tr>\n'
+    code += '        <td class="swatch" style="background-color: %s;">&nbsp;</td>\n' % v["hex"]
+    code += '        <td>%s</td>\n' % escape(v["name"])
+    code += '        <td class="color_hex">%s</td>\n' % v["hex"]
+    code += '        <td class="color_rgb">%d</td>\n' % v["rgb"][0]
+    code += '        <td class="color_rgb">%d</td>\n' % v["rgb"][1]
+    code += '        <td class="color_rgb">%d</td>\n' % v["rgb"][2]
+    code += '      </tr>\n'
+  code += '    </table>\n  </body>\n</html>'
+  return code
+
+FORMATS = {
+  "ccode": to_ccode,
+  "conf": to_conf,
+  "csv": to_csv,
+  "html": to_html,
+  "json": to_json,
+  "sexp": to_sexp,
+  "xml": to_xml,
+}
+
+def main(args):
+  p = OptionParser(usage='%prog [options] FILE...',
+                   description='This utility parses the colour list from ' +
+                    'Wikipedia and outputs to various formats. Select the ' +
+                    'table in Wikipedia using your browser and paste to a ' +
+                    'text file and then run this program with that FILE. ' +
+                    'If the data comes from anywhere else, just make sure ' +
+                    'that all of the lines containing the data start with ' +
+                    'a space and are tab-separated, and that the first 2 ' +
+                    'fields are the name of the colour and the RGB hex ' +
+                    'triplet.',
+                   epilog='For "-o", "-" (stdout) is the default. ' +
+                    'For "-f", "json" is the default')
+  p.add_option('-o', metavar='FILE', dest='outfile', default='-',
+    help='file to write to ("-" for stdout)')
+  p.add_option('-f', metavar='FMT', dest='format', default='json',
+    help='format to output ("ccode", "conf", "csv", "html", "json", "sexp", "xml")')
+
+  opts, args = p.parse_args(args)
+
+  fmt = opts.format.lower()
+  if fmt not in FORMATS:
+    p.error("unknown format '%s', expect one of ccode, conf, csv, html, json, sexp, xml\n" % fmt)
+
+  do_close = False
+  if opts.outfile == '-':
+    outfile = sys.stdout
+  else:
+    try:
+      outfile = open(opts.outfile, 'w')
+      do_close = True
+    except IOError as e:
+      p.error("unable to open file '%s': %s" % (opts.outfile, e.message))
+
+  if len(args) < 2:
+    p.error("no input file(s) specified")
+
+  color_dict = parse_files(*args[1:])
+
+  outfile.write(FORMATS[fmt](color_dict))
+
+  if do_close:
+    outfile.close()
+
+  return 0
+
+if __name__ == "__main__": sys.exit(main(sys.argv))

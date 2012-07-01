@@ -1,0 +1,6 @@
+All original code here is released under the GPL v2.0 or later. The data is
+under whatever license applies to this Wikiepedia entry:
+
+    http://en.wikipedia.org/wiki/List_of_colors
+
+(Appears to be Creative Commons Attribution-ShareAlike 2.0 Unported License)
