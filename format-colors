@@ -63,9 +63,10 @@ def to_json(color_dict):
     code += indent   + '"%s": {\n' % k
     code += indent*2 +   '"name": "%s",\n' % v["name"]
     code += indent*2 +   '"hex": "%s",\n' % v["hex"]
-    code += indent*2 +   '"rgb": [%d, %d, %d],\n' % v["rgb"]
+    code += indent*2 +   '"rgb": [%d, %d, %d]\n' % v["rgb"]
     code += indent + '},\n'
-  code += '}\n'
+  code = code[:-2]
+  code += '\n}\n'
   return code
 
 def to_conf(color_dict):
