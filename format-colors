@@ -104,7 +104,7 @@ def to_csv(color_dict):
     code += '%s,' % k
     code += '"%s",' % v["name"]
     code += '%s,' % v["hex"]
-    code += '%d,%d,%d\n' % v["rgb"]
+    code += '%d,%d,%d\r\n' % v["rgb"]
   return code
 
 def to_ccode(color_dict):
