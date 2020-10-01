@@ -1,5 +1,5 @@
 Color Names
-===========
+===========================================
 
 These files are generated using a script which parses the list of colors
 on Wikipedia, here:
